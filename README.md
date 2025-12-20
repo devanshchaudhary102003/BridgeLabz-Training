@@ -41,7 +41,7 @@ Java fundamentals and problem solving
 ## 📅 Date: 18 December 2025
 
 ### 📘 Topic
-C# basics, .NET architecture, and problem solving
+Overview of C# language,C# Compiler and Common Intermediate Language (CIL),.NET architecture
 
 ---
 
@@ -55,19 +55,24 @@ C# basics, .NET architecture, and problem solving
 ## 📅 Date: 19 December 2025
 
 ### 📘 Topic
-C# Comments, C# Access Modifiers, C# Basic Data Types, C# Variables,  C# Operators, Type Conversion, Taking User Input in Programs
+C# Basic Data Types, C# Variables,  C# Operators, Type Conversion, Taking User Input in Programs
 
 ---
 
 ### 🌟 What I Learned
-- C# Access Modifiers
-- C# Basic Data Types
-- C# Variables
-- C# Operators
-- Type Conversion
-- Taking User Input in Programs
 - Solved questions based on **C# Data Types**
 - Solved questions based on **C# Operators**
 - Solved **Level-1 C#-Programming-Elements questions**
 
 ---
+
+## 📅 Date: 19 December 2025
+
+### 📘 Topic
+C# Access Modifier(public,private,protected,internal,protected internal,private protected)
+
+---
+
+### 🌟 What I Learned
+- Solved **Level-2 C#-Programming-Elements questions**
+- Solved questions based on **C# Access Modifier**
