@@ -76,3 +76,18 @@ C# Access Modifier(public,private,protected,internal,protected internal,private 
 ### 🌟 What I Learned
 - Solved **Level-2 C#-Programming-Elements questions**
 - Solved questions based on **C# Access Modifier**
+
+---
+
+## 📅 Date: 22 December 2025
+
+### 📘 Topic
+C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if Conditional Statement along with else if and final else statement,C# loops - for and while,C# break and continue statement,C# switch Statement
+
+---
+
+### 🌟 What I Learned
+- Solved **Level-1 C#-Control Flow questions**
+- Solved Questions Based on **C# Loops (for and while) and C# break**
+
+---
