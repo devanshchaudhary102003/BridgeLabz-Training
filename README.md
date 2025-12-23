@@ -91,3 +91,16 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Solved Questions Based on **C# Loops (for and while) and C# break**
 
 ---
+
+## 📅 Date: 23 December 2025
+
+### 📘 Topic
+C# Arrays,Create an Array,Access an Array,Accessing using for loop,Modifying an Array,Using length property of array,C# Multi-demensional Array,C# 2 Dimensional Array (Matrix)
+
+---
+
+### 🌟 What I Learned
+- Solved **Level-2 and Level-3 C#-Control Flow questions**
+- Solved Questions Based on **C# Arrays**
+
+---
