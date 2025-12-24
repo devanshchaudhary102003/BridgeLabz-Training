@@ -13,18 +13,6 @@ Git setup, GitHub repository creation, and Git commands
 
 ---
 
-### 🌟 What I Learned
-- Installed and configured **Git**
-- Created GitHub repository
-- Learned and practiced core Git commands:
-  - `git init`
-  - `git add`
-  - `git commit`
-  - `git push`
-- Understood **branching concepts**
-
----
-
 ## 📅 Date: 17 December 2025
 
 ### 📘 Topic
@@ -73,3 +61,4 @@ C# Arrays,Create an Array,Access an Array,Accessing using for loop,Modifying an 
 
 ### 📘 Topic
 User-Defined Methods,Using Methods Multiple Times,Making Methods More Dynamic,Recursive Methods,Static Methods in C#,.NET Standard Library Methods,System.Math Class in C#
+
