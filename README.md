@@ -32,23 +32,10 @@ Java fundamentals and problem solving
 
 ---
 
-### 🌟 What I Learned
-- Solved **10 Google Classroom codebase problems**
-- Focused on **Java fundamentals and logic building**
-
----
-
 ## 📅 Date: 18 December 2025
 
 ### 📘 Topic
 Overview of C# language,C# Compiler and Common Intermediate Language (CIL),.NET architecture
-
----
-
-### 🌟 What I Learned
-- Learned **C# programming basics**
-- Studied **.NET Framework architecture**
-- Solved **10 c# Google Classroom codebase questions**
 
 ---
 
@@ -59,13 +46,6 @@ C# Basic Data Types, C# Variables,  C# Operators, Type Conversion, Taking User I
 
 ---
 
-### 🌟 What I Learned
-- Solved questions based on **C# Data Types**
-- Solved questions based on **C# Operators**
-- Solved **Level-1 C#-Programming-Elements questions**
-
----
-
 ## 📅 Date: 20 December 2025
 
 ### 📘 Topic
@@ -73,22 +53,11 @@ C# Access Modifier(public,private,protected,internal,protected internal,private 
 
 ---
 
-### 🌟 What I Learned
-- Solved **Level-2 C#-Programming-Elements questions**
-- Solved questions based on **C# Access Modifier**
-
----
 
 ## 📅 Date: 22 December 2025
 
 ### 📘 Topic
 C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if Conditional Statement along with else if and final else statement,C# loops - for and while,C# break and continue statement,C# switch Statement
-
----
-
-### 🌟 What I Learned
-- Solved **Level-1 C#-Control Flow questions**
-- Solved Questions Based on **C# Loops (for and while) and C# break**
 
 ---
 
@@ -99,8 +68,8 @@ C# Arrays,Create an Array,Access an Array,Accessing using for loop,Modifying an 
 
 ---
 
-### 🌟 What I Learned
-- Solved **Level-2 and Level-3 C#-Control Flow questions**
-- Solved Questions Based on **C# Arrays**
 
----
+## 📅 Date: 24 December 2025
+
+### 📘 Topic
+User-Defined Methods,Using Methods Multiple Times,Making Methods More Dynamic,Recursive Methods,Static Methods in C#,.NET Standard Library Methods,System.Math Class in C#
