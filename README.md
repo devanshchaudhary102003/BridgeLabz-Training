@@ -52,7 +52,8 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 ##  Date: 23 December 2025
 
 ###  Topic
-C# Arrays,Create an Array,Access an Array,Accessing using for loop,Modifying an Array,Using length property of array,C# Multi-demensional Array,C# 2 Dimensional Array (Matrix)
+- C# Arrays,Create an Array,Access an Array,Accessing using for loop,Modifying an Array,Using length property of array.
+- C# Multi-demensional Array,C# 2 Dimensional Array (Matrix)
 
 ---
 
@@ -60,8 +61,8 @@ C# Arrays,Create an Array,Access an Array,Accessing using for loop,Modifying an 
 ##  Date: 24 December 2025
 
 ###  Topic
-User-Defined Methods,Using Methods Multiple Times,Making Methods More Dynamic,Recursive Methods,Static Methods in C#,.NET Standard Library Methods,System.Math Class in C#.
-Solve One Leetcode Problem On Array (Two-Sum).
+- User-Defined Methods,Using Methods Multiple Times,Making Methods More Dynamic,Recursive Methods,Static Methods in C#,.NET Standard Library Methods,System.Math Class in C#.
+- Solve One Leetcode Problem On Array (Two-Sum).
 
 ---
 
@@ -79,5 +80,3 @@ Solve One Leetcode Problem On Array (Two-Sum).
 - C# Strings,Create Strings,Take String Input,String Arrays,String as Method Parameters,String Class Built-In Methods.
 - Solved one Review Question Based on Array.
 - Solve Two Leetcode Problem On Array(Build-Array-From-Permutatiom and Number-Of-Good-Pairs).
-
-
