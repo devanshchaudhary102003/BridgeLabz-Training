@@ -4,7 +4,7 @@ class MissingNumber
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter Length");
+        Console.WriteLine("Enter Length:");
         
         int n = Convert.ToInt32(Console.ReadLine());
 
