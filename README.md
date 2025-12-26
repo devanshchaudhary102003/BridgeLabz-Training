@@ -62,3 +62,10 @@ C# Arrays,Create an Array,Access an Array,Accessing using for loop,Modifying an 
 ### 📘 Topic
 User-Defined Methods,Using Methods Multiple Times,Making Methods More Dynamic,Recursive Methods,Static Methods in C#,.NET Standard Library Methods,System.Math Class in C#
 
+---
+
+
+## 📅 Date: 25 December 2025
+
+### 📘 Topic
+Solve Methods Problem Level-1 , Level-2 and Level-3
