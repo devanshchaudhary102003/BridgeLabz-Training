@@ -68,15 +68,16 @@ Solve One Leetcode Problem On Array (Two-Sum).
 ##  Date: 25 December 2025
 
 ###  Topic
-Solve Methods Problem Level-1 , Level-2 and Level-3.
-Solve One Leetcode Problem On Array(TransFrom-Arrays-By-Parity).
+- Solve Methods Problem Level-1 , Level-2 and Level-3.
+- Solve One Leetcode Problem On Array(TransFrom-Arrays-By-Parity).
 
 ---
 
 ##  Date: 26 December 2025
 
 ###  Topic
- C# Strings,Create Strings,Take String Input,String Arrays,String as Method Parameters,String Class Built-In Methods.
-Solved one Review Question Based on Array.
-Solve Two Leetcode Problem On Array(Build-Array-From-Permutatiom and Number-Of-Good-Pairs).
+- C# Strings,Create Strings,Take String Input,String Arrays,String as Method Parameters,String Class Built-In Methods.
+- Solved one Review Question Based on Array.
+- Solve Two Leetcode Problem On Array(Build-Array-From-Permutatiom and Number-Of-Good-Pairs).
+
 
