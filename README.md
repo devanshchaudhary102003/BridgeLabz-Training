@@ -86,5 +86,15 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 ##  Date: 27 December 2025
 
 ###  Topic
--ASCII Character Codes,C# Exceptions,C# Exception Hierarchy,C# Exception Types,System.Exception or Unchecked Exceptions,Checked Exceptions
+- ASCII Character Codes,C# Exceptions,C# Exception Hierarchy,C# Exception Types,System.Exception or Unchecked Exceptions,Checked Exceptions
 - Solve Two LeetCode Problem Based on Array(Shuffle the Array and Richest Customer Wealth)
+
+---
+
+##  Date: 28 December 2025
+
+###  Topic
+- Common Built-in Functions and C# Date and Time Built-in Functions
+- Solved C# String And C# String Handling Questions
+- Solved Built-in Level-1 and Level-2 Quesions
+- Solved Two LeetCode Problem Based On Array(Number Of Employees Who Meet The Target , How Many Number)
