@@ -98,3 +98,13 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Solved C# String And C# String Handling Questions
 - Solved Built-in Level-1 and Level-2 Quesions
 - Solved Two LeetCode Problem Based On Array(Number Of Employees Who Meet The Target , How Many Number)
+
+---
+
+##  Date: 29 December 2025
+
+###  Topic
+- Solved one scenario-based question on Snake and Ladder.
+- Solved one Scenario-based question on Strings – Sentence Formatter & Text Analyzer.
+- Solved one Scenario-based question on Arrays – Temperature Analyzer & Student Score Manager.
+- Solved One LeetCode Problem Based on 2D Arrsy(Matrix Diagonal Sum).
