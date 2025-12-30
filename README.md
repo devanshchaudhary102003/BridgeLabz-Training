@@ -107,4 +107,14 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Solved one scenario-based question on Snake and Ladder.
 - Solved one Scenario-based question on Strings – Sentence Formatter & Text Analyzer.
 - Solved one Scenario-based question on Arrays – Temperature Analyzer & Student Score Manager.
-- Solved One LeetCode Problem Based on 2D Arrsy(Matrix Diagonal Sum).
+- Solved One LeetCode Problem Based on 2D Array(Matrix Diagonal Sum).
+
+---
+
+##  Date: 30 December 2025
+
+###  Topic
+- Solved Two Scenario-Based Questions 1.Library Management System - Book Search and Checkout 2.EduQuiz – Student Quiz Grader.
+- Object-oriented Programming Fundamental (Classes And Objects).
+- Solved Problems Based on Classes And Object.
+- Solved One LeetCode Problem Based on Array(Maximum Number of Words Found in Sentences).
