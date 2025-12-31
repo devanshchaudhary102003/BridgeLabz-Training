@@ -118,3 +118,13 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Object-oriented Programming Fundamental (Classes And Objects).
 - Solved Problems Based on Classes And Object.
 - Solved One LeetCode Problem Based on Array(Maximum Number of Words Found in Sentences).
+
+---
+
+##  Date: 31 December 2025
+
+###  Topic
+- Solved Two Scenario-Based Questions on 1. Bank Account Manager 2. utility class for mathematical operations.
+- Solved One Scenario-Based Questions on Invoice Generator for Freelancers.
+- C# Constructors, Instance vs. Class Variables, Access Modifiers Concepts.
+- Solved Problems Based On C# Constructors, Instance vs. Class Variables, Access Modifiers
