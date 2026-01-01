@@ -128,3 +128,13 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Solved One Scenario-Based Questions on Invoice Generator for Freelancers.
 - C# Constructors, Instance vs. Class Variables, Access Modifiers Concepts.
 - Solved Problems Based On C# Constructors, Instance vs. Class Variables, Access Modifiers
+
+---
+
+##  Date: 01 January 2025
+
+###  Topic
+- Solved One Scenario-Based Questions on Cafeteria Menu App.
+- Completed this, sealed, static key words and is operator.
+- Solved Problems Based On this, sealed, static key words and is operator Content Level 1 Lab Practice
+- Solved One LeetCode Problem Based On Array(How Many Numbers Are Smaller Than the Current Number). 
