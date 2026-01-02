@@ -139,3 +139,11 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Solved Problems Based On this, sealed, static key words and is operator Content Level 1 Lab Practice
 - Solved One LeetCode Problem Based On Array(How Many Numbers Are Smaller Than the Current Number). 
 
+---
+
+##  Date: 02 January 2026
+
+###  Topic
+- Solved Two Scenario-Based Questions on 1.Bus Route Distance Tracker 2.Festival Lucky Draw.
+- Object Modeling,Class Diagram,Object Diagrams,Sequence Diagrams.
+- Solved One LeetCode Problem Based On String (Truncate Sentences).
