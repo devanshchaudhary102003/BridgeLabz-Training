@@ -147,3 +147,19 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Solved Two Scenario-Based Questions on 1.Bus Route Distance Tracker 2.Festival Lucky Draw.
 - Object Modeling,Class Diagram,Object Diagrams,Sequence Diagrams.
 - Solved One LeetCode Problem Based On String (Truncate Sentences).
+
+---
+
+##  Date: 03 January 2026
+
+###  Topic
+- Solved Problems Based On Object Modeling,Class Diagram,Object Diagrams,Sequence Diagrams.
+- Inheritance,Single Level Inheritance,Multilevel Inheritance,Hierarchical Inheritance,Key Features of Inheritance,Method Overriding,Constructor Inheritance in C#,Polymorphism and Inheritance,Access Modifiers      and Inheritance.
+ 
+---
+
+##  Date: 04 January 2026
+
+###  Topic
+- Solved Problem Based On Inheritance,Single Level Inheritance,Multilevel Inheritance,Hierarchical Inheritance,Hybrid Inheritance
+- Solved One LeetCode Problem Based On Array(Search Insert Position).
