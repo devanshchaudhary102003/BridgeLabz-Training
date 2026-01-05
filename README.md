@@ -163,3 +163,13 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 ###  Topic
 - Solved Problem Based On Inheritance,Single Level Inheritance,Multilevel Inheritance,Hierarchical Inheritance,Hybrid Inheritance
 - Solved One LeetCode Problem Based On Array(Search Insert Position).
+ 
+---
+
+##  Date: 05 January 2026
+
+###  Topic
+- Solved Two Scenario-Based Questions on 1.Hospital Patient Management System 2.Vehicle Rental Application.
+- Encapsulation
+- Polymorphism
+- Solved One LeetCode Problem Based On String(Check If Two String Arrays are Equivalent).
