@@ -105,6 +105,47 @@ namespace Employee
         }
 
 
+        // UC6: Calculate Wage with condition
+        public void CalculateWageWithCondition()
+        {
+            const int MAX_HOURS = 100;
+            const int MAX_DAYS = 20;
+
+            foreach (Employee employee in employees)
+            {
+                int totalHours = 0;
+                int totalDays = 0;
+                double totalWage = 0;
+
+                Console.WriteLine($"\nCalculating wage for {employee.EmployeeName}");
+
+                while (totalHours < MAX_HOURS && totalDays < MAX_DAYS)
+                {
+                    Console.Write($"Enter working hours for day {totalDays + 1}: ");
+                    int hours = int.Parse(Console.ReadLine());
+
+                    if (hours > 8)
+                    {
+                        Console.WriteLine("Max 8 hours allowed.");
+                        continue;
+                    }
+
+                    totalHours += hours;
+                    totalDays++;
+
+                    double dailyWage = hours * 20;
+                    totalWage += dailyWage;
+                }
+
+                employee.EmployeeMonthlyWage = totalWage;
+
+                Console.WriteLine($"Total Days Worked: {totalDays}");
+                Console.WriteLine($"Total Hours Worked: {totalHours}");
+                Console.WriteLine($"Final Monthly Wage: {totalWage}");
+            }
+        }
+
+
         public void DisplayEmployees()
         {
             Console.WriteLine("1. Display Full time Employees");
