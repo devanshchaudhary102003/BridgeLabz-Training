@@ -6,78 +6,56 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-     class Employee
-     {
+    internal class Employee
+    {
         private string employeeid;
         private string employeename;
+        private double employeedailywage;  // UC2 Adding Daily Wage
         private long employeephonenumber;
 
-        private string employeeattendance; // UC1 Employee Attendance Check
-
-        public double employeedailywage;//  UC2 Adding Daily Wage
+        private string employeeattendance;   // UC1 Employee Attendance Check
+        private bool isparttime = false; //UC3 Added PartTIme Employees and Wage
 
         public string EmployeeId
         {
-            get
-            {
-                return employeeid;
-            }
-            set
-            {
-                employeeid = value;
-            }
+            get { return employeeid; }
+            set { employeeid = value; }
         }
         public string EmployeeName
         {
-            get
-            {
-                return employeename;
-            }
-            set
-            {
-                employeename = value;
-            }
+            get { return employeename; }
+            set { employeename = value; }
         }
-
+        public double EmployeeDailyWage
+        {
+            get { return employeedailywage; }
+            set { employeedailywage = value; }
+        }
         public long EmployeePhoneNumber
         {
-            get
-            {
-                return employeephonenumber;
-            }
-            set
-            {
-                employeephonenumber = value;
-            }
+            get { return employeephonenumber; }
+            set { employeephonenumber = value; }
         }
 
         public string EmployeeAttendance
         {
-            get
-            {
-                return employeeattendance;
-            }
-            set
-            {
-                employeeattendance = value;
-            }
+            get { return employeeattendance; }
+            set { employeeattendance = value; }
         }
 
-        public double EmployeeDailyWage
+        public bool IsPartTime
         {
-            get
-            {
-                return employeedailywage;
-            }
-            set
-            {
-                employeedailywage = value;
-            }
+            get { return isparttime; }
+            set { isparttime = value; }
         }
+
 
         public override string? ToString()
         {
-            return "Employee ID: " + employeeid + "\nEmployee Name: " + employeename + "\nEmployee Wage : " + employeedailywage + "\nEmployee Phone Number : " + employeephonenumber +"\nEmployee Attendance : " +EmployeeAttendance;
+            if (isparttime)
+                return "----PART TIME EMPLOYEE----\n\nEmployee ID : " + employeeid + "\nEmployee Name : " + employeename + "\nEmployee Salary/Wage : " + employeedailywage + "\nEmployee Phone Number : " + employeephonenumber + "\nEmployee Attendance : " + employeeattendance;
+            else
+                return "----FULL TIME EMPLOYEE----\n\nEmployee ID : " + employeeid + "\nEmployee Name : " + employeename + "\nEmployee Salary/Wage : " + employeedailywage + "\nEmployee Phone Number : " + employeephonenumber + "\nEmployee Attendance : " + employeeattendance;
         }
     }
 }

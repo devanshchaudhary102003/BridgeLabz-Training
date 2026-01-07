@@ -9,7 +9,7 @@ namespace Employee
     interface IEmployee
     {
         Employee AddEmployee();
-        void DisplayEmployee();
+        void DisplayEmployees();
         void AttendanceCheck();
         void EmployeeDailyWage();
     }

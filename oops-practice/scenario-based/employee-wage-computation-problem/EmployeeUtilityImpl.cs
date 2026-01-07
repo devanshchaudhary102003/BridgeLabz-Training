@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-    internal class EmployeeUtilityImpl:IEmployee
+    internal class EmployeeUtilityImpl : IEmployee
     {
         private List<Employee> employees = new List<Employee>();
         private Employee employee;
@@ -16,42 +16,67 @@ namespace Employee
         {
             employee = new Employee();
 
-            Console.WriteLine("Enter ID: ");
-            employee.EmployeeId = Console.ReadLine();
+            Console.WriteLine("1. Full time Employee");
+            Console.WriteLine("2. Part Time Employee");
 
-            Console.WriteLine("Enter Name: ");
-            employee.EmployeeName = Console.ReadLine();
+            int choicefortime = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter Phone Number: ");
-            employee.EmployeePhoneNumber = long.Parse(Console.ReadLine());
+            if (choicefortime == 1)
+            {
+                Console.Write("Enter Employee ID: ");
+                employee.EmployeeId = Console.ReadLine();
 
-            employees.Add(employee);
+                Console.Write("Enter Name: ");
+                employee.EmployeeName = Console.ReadLine();
 
-            Console.WriteLine("Employee Added Successfully!");
-            return employee;
+                Console.Write("Enter Phone: ");
+                employee.EmployeePhoneNumber = long.Parse(Console.ReadLine());
+
+                employees.Add(employee);
+
+                Console.WriteLine("Employee Added Successfully!");
+                return employee;
+            }
+            else  // UC3 Added PartTIme Employees and Wage
+            {
+                employee.IsPartTime = true;
+                Console.Write("Enter PartTime Employee ID: ");
+                employee.EmployeeId = Console.ReadLine();
+
+                Console.Write("Enter Name: ");
+                employee.EmployeeName = Console.ReadLine();
+
+                Console.Write("Enter Phone: ");
+                employee.EmployeePhoneNumber = long.Parse(Console.ReadLine());
+
+                employees.Add(employee);
+
+                Console.WriteLine("Employee Added Successfully!");
+                return employee;
+            }
+
+
         }
 
-        //UC1 Employee Attendance Check
+        // UC1 Employee Attendance Check
         public void AttendanceCheck()
         {
-            int i = 1;
-            
-            foreach(Employee employee in employees)
+            foreach (Employee employee in employees)
             {
-                Console.WriteLine($"Employee {i} attendance : ");
-                long attendanceOtp = attendanceCheck.Next(1, 100000);
-                i++;
-                Console.WriteLine($"Enter The Number Displayed {attendanceOtp}");
+                Console.WriteLine($"Employee {employee.EmployeeName} attendance : ");
+                long attendaceOtp = attendanceCheck.Next(1, 100000);
+                Console.WriteLine($"Enter The Number Displayed {attendaceOtp}");
 
                 long employeeinput = long.Parse(Console.ReadLine());
-                if (attendanceOtp == employeeinput)
+                if (attendaceOtp == employeeinput)
                     employee.EmployeeAttendance = "Present";
                 else
-                    employee.EmployeeAttendance = "Absent";
+                    employee.EmployeeAttendance = "Abesent";
             }
         }
 
-        //UC2 Calculate Daily Employee Wage
+        // UC2 Adding Daily Wage
+
         private double wageperhour = 20;
         public void EmployeeDailyWage()
         {
@@ -67,13 +92,37 @@ namespace Employee
             }
         }
 
-        public void DisplayEmployee()
+
+        public void DisplayEmployees()
         {
-            foreach(Employee employee in employees)
+            Console.WriteLine("1. Display Full time Employees");
+            Console.WriteLine("2. Display Part Time Employee"); // UC3 Added PartTIme Employees and Wage
+
+            int choicefortime = int.Parse(Console.ReadLine());
+
+            if (choicefortime == 1)
             {
-                Console.WriteLine(employee);
-                Console.WriteLine("---");
+                foreach (Employee employee in employees)
+                {
+                    if (!employee.IsPartTime)
+                    {
+                        Console.WriteLine(employee);
+                        Console.WriteLine("-----------\n");
+                    }
+                }
             }
+            else
+            {
+                foreach (Employee employee in employees) // UC3 Added PartTIme Employees and Wage
+                {
+                    if (employee.IsPartTime)
+                    {
+                        Console.WriteLine(employee);
+                        Console.WriteLine("-----------\n");
+                    }
+                }
+            }
+
         }
     }
 }
