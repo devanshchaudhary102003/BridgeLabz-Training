@@ -23,7 +23,7 @@ namespace Employee
                 
                 int choice = int.Parse(Console.ReadLine());
 
-                switch (choice)
+                switch (choice)             //UC4 Solving using switch Case
                 {
                     case 1:
                         _employeeChoice.AddEmployee();
