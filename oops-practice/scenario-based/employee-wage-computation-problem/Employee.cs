@@ -15,6 +15,7 @@ namespace Employee
 
         private string employeeattendance;   // UC1 Employee Attendance Check
         private bool isparttime = false; //UC3 Added PartTIme Employees and Wage
+        private double employeemonthlywage; //UC5 ADDED MONTHLY WAGE
 
         public string EmployeeId
         {
@@ -49,13 +50,18 @@ namespace Employee
             set { isparttime = value; }
         }
 
+        public double EmployeeMonthlyWage
+        {
+            get { return employeemonthlywage; }
+            set { employeemonthlywage = value; }   // UC5 ADDED MONTHLY WAGE
+        }
 
         public override string? ToString()
         {
             if (isparttime)
-                return "----PART TIME EMPLOYEE----\n\nEmployee ID : " + employeeid + "\nEmployee Name : " + employeename + "\nEmployee Salary/Wage : " + employeedailywage + "\nEmployee Phone Number : " + employeephonenumber + "\nEmployee Attendance : " + employeeattendance;
+                return "----PART TIME EMPLOYEE----\n\nEmployee ID : " + employeeid + "\nEmployee Name : " + employeename + "\nEmployee Salary/Wage : " + employeedailywage + "\nEmployee Monthly Wage :"+employeemonthlywage+ "\nEmployee  Phone Number : " + employeephonenumber + "\nEmployee Attendance : " + employeeattendance;
             else
-                return "----FULL TIME EMPLOYEE----\n\nEmployee ID : " + employeeid + "\nEmployee Name : " + employeename + "\nEmployee Salary/Wage : " + employeedailywage + "\nEmployee Phone Number : " + employeephonenumber + "\nEmployee Attendance : " + employeeattendance;
+                return "----FULL TIME EMPLOYEE----\n\nEmployee ID : " + employeeid + "\nEmployee Name : " + employeename + "\nEmployee Salary/Wage : " + employeedailywage + "\nEmployee Monthly Wage :"+employeedailywage+ "\n Employee Phone Number : " + employeephonenumber + "\nEmployee Attendance : " + employeeattendance;
         }
     }
 }
