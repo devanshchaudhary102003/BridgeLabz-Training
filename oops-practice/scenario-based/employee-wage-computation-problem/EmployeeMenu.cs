@@ -18,7 +18,8 @@ namespace Employee
                 Console.WriteLine("1. Add Employee");
                 Console.WriteLine("2. Display Employee");
                 Console.WriteLine("3. Attendance Check");   //UC1 Employee Attendance Check
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("4. Calculate Wage");
+                Console.WriteLine("5. Exit");
                 
                 int choice = int.Parse(Console.ReadLine());
 
@@ -34,7 +35,10 @@ namespace Employee
                         _employeeChoice.AttendanceCheck();
                         break;
                     case 4:
-                        return;
+                        _employeeChoice.EmployeeDailyWage();
+                        break;
+                    case 5:
+                            return;
                 }
             }
         }

@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-    internal class Employee
-    {
-        private string employeeid {  get; set; }
-        private string employeename { get; set; }
-        private string employeesalary { get; set; }
-        private long employeephonenumber { get; set; }
+     class Employee
+     {
+        private string employeeid;
+        private string employeename;
+        private long employeephonenumber;
 
-        private string employeeattendance { get; set; } // UC1 Employee Attendance Check
+        private string employeeattendance; // UC1 Employee Attendance Check
+
+        public double employeedailywage;//  UC2 Adding Daily Wage
 
         public string EmployeeId
         {
-            get { 
+            get
+            {
                 return employeeid;
             }
             set
@@ -25,7 +27,6 @@ namespace Employee
                 employeeid = value;
             }
         }
-
         public string EmployeeName
         {
             get
@@ -35,18 +36,6 @@ namespace Employee
             set
             {
                 employeename = value;
-            }
-        }
-
-        public string EmployeeSalary
-        {
-            get
-            {
-                return employeesalary;
-            }
-            set
-            {
-                employeesalary = value;
             }
         }
 
@@ -74,9 +63,21 @@ namespace Employee
             }
         }
 
+        public double EmployeeDailyWage
+        {
+            get
+            {
+                return employeedailywage;
+            }
+            set
+            {
+                employeedailywage = value;
+            }
+        }
+
         public override string? ToString()
         {
-            return "Employee ID: " + employeeid + "\nEmployee Name: " + employeename + "\nEmployee Salary : " + employeesalary + "\nEmployee Phone Number : " + employeephonenumber +"\nEmployee Attendance : " +EmployeeAttendance;
+            return "Employee ID: " + employeeid + "\nEmployee Name: " + employeename + "\nEmployee Wage : " + employeedailywage + "\nEmployee Phone Number : " + employeephonenumber +"\nEmployee Attendance : " +EmployeeAttendance;
         }
     }
 }

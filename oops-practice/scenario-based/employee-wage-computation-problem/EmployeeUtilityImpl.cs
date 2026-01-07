@@ -15,6 +15,7 @@ namespace Employee
         public Employee AddEmployee()
         {
             employee = new Employee();
+
             Console.WriteLine("Enter ID: ");
             employee.EmployeeId = Console.ReadLine();
 
@@ -47,6 +48,22 @@ namespace Employee
                     employee.EmployeeAttendance = "Present";
                 else
                     employee.EmployeeAttendance = "Absent";
+            }
+        }
+
+        //UC2 Calculate Daily Employee Wage
+        private double wageperhour = 20;
+        public void EmployeeDailyWage()
+        {
+            foreach (Employee employee in employees)
+            {
+                Console.WriteLine($"How many hours employee {employee.EmployeeName} worked for? ");
+                int hourinput = int.Parse(Console.ReadLine());
+                if (hourinput > 8)
+                    Console.WriteLine("Can't be greater than 8");
+                else
+                    employee.EmployeeDailyWage = wageperhour * hourinput;
+                Console.WriteLine($"Your total wage is : {employee.EmployeeDailyWage}");
             }
         }
 

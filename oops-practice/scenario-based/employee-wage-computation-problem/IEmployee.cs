@@ -11,5 +11,6 @@ namespace Employee
         Employee AddEmployee();
         void DisplayEmployee();
         void AttendanceCheck();
+        void EmployeeDailyWage();
     }
 }
