@@ -181,7 +181,8 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 ### 📘 Topic
 - Solved Two Scenario-Based Questions on **1.Design a Bird Sanctuary system using Inheritance and Polymorphism 2.Customer Service Call Log Manager**
 - Interface and Abstract Class
-- Solved Problem Based On Encapsulation, Polymorphism, Interface and Abstract Class. 
+- Solved Problem Based On Encapsulation, Polymorphism, Interface and Abstract Class.
+
 ---
 
 ##  Date: 07 January 2026
@@ -190,3 +191,17 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Solved Problem Based On Encapsulation, Polymorphism, Interface and Abstract Class.
 - Solved One Scenario-Based Question on **Employee Wage Computation Problem.**
 - Solved Two LeetCode Problem Based On Array (1. Minimum Number of Moves to Seat Everyone 2.Find the Number of Good Pairs I).
+
+---
+
+##  Date: 08 January 2026
+
+### 📘 Topic
+- Solved One Scenario-Based Question on **Smart Home Automation System.**
+- Introduction of Data Structures 
+- Key Features of Data Structures in C#
+- Types of Data Structures in C#
+- Single Linked List
+- Double Linked List
+- Circular Linked List
+- Solved Problem Based On Single Linked List, Double Linked List and Circular Linked List.
