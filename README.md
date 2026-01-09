@@ -205,3 +205,16 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Double Linked List
 - Circular Linked List
 - Solved Problem Based On Single Linked List, Double Linked List and Circular Linked List.
+
+---
+
+## 📅 Date: 09 January 2025
+
+### 📘 Topic
+- Solved One Scenario-Based Questions on OOPS Concept **FitTrack – Fitness Tracker**
+- Solved One Scenario-Based Questions on DSA Concept **ATM Dispenser Logic**
+- Stack
+- Queue
+- HashMap and Hashing Function
+- Solved Problem Based On Stack,Queue,HashMap and Hasing Function.
+- Solved One LeetCode Question Based On LinkedList **Reverse The Linked List**
