@@ -218,3 +218,11 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - HashMap and Hashing Function
 - Solved Problem Based On Stack,Queue,HashMap and Hasing Function.
 - Solved One LeetCode Question Based On LinkedList **Reverse The Linked List**
+
+---
+
+## 📅 Date: 11 January 2025
+
+### 📘 Topic
+- Bubble Sort,Insertion Sort,Merge Sort, and Quick Sort
+- Solved Problem Based On Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort,Heap Sort and Counting Sort.
