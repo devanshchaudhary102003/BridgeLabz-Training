@@ -226,3 +226,14 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 ### 📘 Topic
 - Bubble Sort,Insertion Sort,Merge Sort, and Quick Sort
 - Solved Problem Based On Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort,Heap Sort and Counting Sort.
+
+---
+
+## 📅 Date: 12 January 2025
+
+### 📘 Topic
+- Solved One Scenario-Based Questions on OOPS Concept **Metal Factory Pipe Cutting**
+- StringBuilder,StringBuffer
+- InputStreamReader,FileReader
+- Linear Search and Binary Search
+- Solved Questions Based On StringBuilder,StringBuffer.
