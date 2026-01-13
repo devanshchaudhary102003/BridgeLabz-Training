@@ -237,3 +237,12 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - InputStreamReader,FileReader
 - Linear Search and Binary Search
 - Solved Questions Based On StringBuilder,StringBuffer.
+
+---
+
+## 📅 Date: 13 January 2025
+
+### 📘 Topic
+- Solved Two Scenario-Based Questions on **1.Custom Furniture Manufacturing 2.LoanBuddy – Loan Approval Automation**
+- Solved Two Scenario-Based Questions on **1.CinemaTime – Movie Schedule Manager 2.BookBuddy – Digital Bookshelf App**
+- Solved Questions Based On InputStreamReader,FileReader,Linear Search and Binary Search.
