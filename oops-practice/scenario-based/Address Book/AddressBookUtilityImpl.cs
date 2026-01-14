@@ -12,7 +12,7 @@ namespace AddressBook_System
 
         private int count = 0;
 
-        public void AddContact()
+        public void AddContact()    //UC-2
         {
             if(count == addressBooks.Length)
             {
@@ -53,7 +53,7 @@ namespace AddressBook_System
             Console.WriteLine("\nContact added Successfully!");
         }
 
-        public void EditContact()
+        public void EditContact()   //UC-3
         {
             if(count == 0)
             {
@@ -66,7 +66,7 @@ namespace AddressBook_System
 
             for(int i = 0; i < count; i++)
             {
-                if (addressBooks[i].firstName.Equals(name, StringComparison.OrdinalIgnoreCase)){
+                if (addressBooks[i] != null && addressBooks[i].firstName.Equals(name, StringComparison.OrdinalIgnoreCase)){
                     int choice;
 
                     do
@@ -144,6 +144,37 @@ namespace AddressBook_System
                 }
             }
             Console.WriteLine("Contact Not Found");
+        }
+
+        public void DeleteContact() //UC-4
+        {
+            if(count == 0)
+            {
+                Console.WriteLine("No Contact to delete");
+                return;
+            }
+
+            Console.WriteLine("Enter First Name of Contact to delete");
+            string name = Console.ReadLine();
+
+            for (int i = 0; i < count; i++)
+            {
+                if (addressBooks[i] != null && addressBooks[i].firstName.Equals(name, StringComparison.OrdinalIgnoreCase))
+                {
+                    for (int j = i; j < count; j++)
+                    {
+                        addressBooks[j] = addressBooks[j + 1];
+                    }
+                    Console.WriteLine("Contact details: " + addressBooks[i]);
+                    Console.WriteLine("Delete Contact Successfully");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("No name found");
+                    return;
+                }
+            }
         }
     }
 }
