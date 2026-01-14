@@ -246,3 +246,18 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Solved Two Scenario-Based Questions on **1.Custom Furniture Manufacturing 2.LoanBuddy – Loan Approval Automation**
 - Solved Two Scenario-Based Questions on **1.CinemaTime – Movie Schedule Manager 2.BookBuddy – Digital Bookshelf App**
 - Solved Questions Based On InputStreamReader,FileReader,Linear Search and Binary Search.
+
+---
+
+## 📅 Date: 14 January 2025
+
+### 📘 Topic
+- What is Runtime Analysis?
+- Understanding Big-O Notation
+- Time Complexity Analysis
+- Space Complexity Analysis
+- Best, Worst, and Average Case Complexities
+- Practical Guidelines for Optimizing C# Code
+- Problem solved on Best, Worst, and Average Case Complexities.
+- Solved One Project Based On **Address Book Problem**
+- Solved One LeetCode Question On Linked-List**Middle Of The Linked List**
