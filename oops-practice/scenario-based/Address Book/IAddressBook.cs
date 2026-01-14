@@ -9,5 +9,6 @@ namespace AddressBook_System
     internal interface IAddressBook
     {
         void AddContact();
+        void EditContact();
     }
 }

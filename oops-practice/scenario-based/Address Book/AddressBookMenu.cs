@@ -17,6 +17,7 @@ namespace AddressBook_System
             {
                 Console.WriteLine("\n===== ADDRESS BOOK MENU =====");
                 Console.WriteLine("1. Add Contact");
+                Console.WriteLine("2. Edit Contact");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter your choice: ");
 
@@ -26,6 +27,10 @@ namespace AddressBook_System
                 {
                     case 1:
                         Contact.AddContact();
+                        break;
+
+                    case 2:
+                        Contact.EditContact();
                         break;
 
                     default:

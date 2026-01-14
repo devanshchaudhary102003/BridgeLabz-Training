@@ -49,8 +49,101 @@ namespace AddressBook_System
             addressBooks[count] = contact;
             count++;
 
+            Console.WriteLine(contact);
             Console.WriteLine("\nContact added Successfully!");
         }
 
+        public void EditContact()
+        {
+            if(count == 0)
+            {
+                Console.WriteLine("No Contact Available to Edit");
+                return;
+            }
+
+            Console.WriteLine("Enter First Name Of Contact to Edit");
+            string name = Console.ReadLine();
+
+            for(int i = 0; i < count; i++)
+            {
+                if (addressBooks[i].firstName.Equals(name, StringComparison.OrdinalIgnoreCase)){
+                    int choice;
+
+                    do
+                    {
+                        Console.WriteLine("------- Edit Contact Menu --------");
+                        Console.WriteLine("1. First Name");
+                        Console.WriteLine("2. Last name");
+                        Console.WriteLine("3. Address");
+                        Console.WriteLine("4. City");
+                        Console.WriteLine("5. State");
+                        Console.WriteLine("6. Zip");
+                        Console.WriteLine("7. Phone");
+                        Console.WriteLine("8. Email");
+                        Console.WriteLine("0. Exit Edit");
+
+                        Console.WriteLine("Choose Field To Edit");
+
+                        choice = Convert.ToInt32(Console.ReadLine());
+
+                        switch(choice)
+                        {
+                            case 1:
+                                Console.WriteLine("Enter New First Name: ");
+                                addressBooks[i].firstName = Console.ReadLine();
+                                break;
+
+                            case 2:
+                                Console.WriteLine("Enter New Last Name: ");
+                                addressBooks[i].lastName = Console.ReadLine();
+                                break;
+
+                            case 3:
+                                Console.WriteLine("Enter New Address: ");
+                                addressBooks[i].address = Console.ReadLine();
+                                break;
+
+                            case 4:
+                                Console.Write("Enter New City: ");
+                                addressBooks[i].city = Console.ReadLine();
+                                break;
+
+                            case 5:
+                                Console.Write("Enter New State: ");
+                                addressBooks[i].state = Console.ReadLine();
+                                break;
+
+                            case 6:
+                                Console.Write("Enter New Zip: ");
+                                addressBooks[i].zip = Console.ReadLine();
+                                break;
+
+                            case 7:
+                                Console.Write("Enter New Phone: ");
+                                addressBooks[i].phonenumber = Console.ReadLine();
+                                break;
+
+                            case 8:
+                                Console.Write("Enter New Email: ");
+                                addressBooks[i].email = Console.ReadLine();
+                                break;
+
+                            case 0:
+                                Console.WriteLine("Exiting Edit Menu...");
+                                Console.WriteLine(addressBooks[i]);
+                                break;
+
+                            default:
+                                Console.WriteLine("Invalid choice!");
+                                break;
+                        }
+                    } while (choice != 0);
+
+                    Console.WriteLine("Contact Updated Successfully!");
+                    return;
+                }
+            }
+            Console.WriteLine("Contact Not Found");
+        }
     }
 }
