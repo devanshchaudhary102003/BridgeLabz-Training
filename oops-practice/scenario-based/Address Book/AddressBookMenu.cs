@@ -19,6 +19,7 @@ namespace AddressBook_System
                 Console.WriteLine("1. Add Contact");    //UC-2
                 Console.WriteLine("2. Edit Contact");   //UC-3
                 Console.WriteLine("3. Delete Contact"); //UC-4
+                Console.WriteLine("4. Display Details");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter your choice: ");
 
@@ -36,6 +37,10 @@ namespace AddressBook_System
 
                     case 3:
                         Contact.DeleteContact();
+                        break;
+
+                    case 4:
+                        Contact.DisplayDetails();
                         break;
 
                     default:

@@ -11,5 +11,6 @@ namespace AddressBook_System
         void AddContact();  //UC-2
         void EditContact(); //UC-3
         void DeleteContact();   //UC-4
+        void DisplayDetails();
     }
 }

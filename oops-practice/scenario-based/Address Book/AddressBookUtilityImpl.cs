@@ -8,7 +8,7 @@ namespace AddressBook_System
 {
     internal class AddressBookUtilityImpl:IAddressBook
     {
-        private AddressBook[] addressBooks = new AddressBook[10];
+        private AddressBook[] addressBooks = new AddressBook[10];   //UC-5
 
         private int count = 0;
 
@@ -174,6 +174,14 @@ namespace AddressBook_System
                     Console.WriteLine("No name found");
                     return;
                 }
+            }
+        }
+
+        public void DisplayDetails()
+        {
+            for(int i = 0; i < count; i++)
+            {
+                Console.WriteLine("Display Details: " + addressBooks[i]);
             }
         }
     }
