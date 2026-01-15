@@ -197,7 +197,7 @@ namespace AddressBook_System
 
             for(int i = 0; i < count; i++)
             {
-                if(addressBooks[i] != null && ((addressBooks[i].city.Equals(location, StringComparison.OrdinalIgnoreCase)) || (addressBooks[i].state.Equals(location, StringComparison.OrdinalIgnoreCase))))
+                if(addressBooks[i] != null && ((addressBooks[i].city.Equals(location, StringComparison.OrdinalIgnoreCase)) || (addressBooks[i].state.Equals(location, StringComparison.OrdinalIgnoreCase))))    //UC-9Ability to view Persons by City or State
                 {
                     Console.WriteLine(addressBooks[i]);
                     found = true;
