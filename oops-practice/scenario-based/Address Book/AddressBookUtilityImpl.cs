@@ -194,19 +194,25 @@ namespace AddressBook_System
             string location = Console.ReadLine();
 
             bool found = false;
+            int PersonCount = 0;                    //UC-10 Ability to get number of contact persons i.e.count by City or State - Search Result
 
-            for(int i = 0; i < count; i++)
+            for (int i = 0; i < count; i++)
             {
-                if(addressBooks[i] != null && ((addressBooks[i].city.Equals(location, StringComparison.OrdinalIgnoreCase)) || (addressBooks[i].state.Equals(location, StringComparison.OrdinalIgnoreCase))))    //UC-9Ability to view Persons by City or State
+                if(addressBooks[i] != null && ((addressBooks[i].city.Equals(location, StringComparison.OrdinalIgnoreCase)) || (addressBooks[i].state.Equals(location, StringComparison.OrdinalIgnoreCase))))    //UC-9  Ability to view Persons by City or State
                 {
                     Console.WriteLine(addressBooks[i]);
                     found = true;
+                    PersonCount++;                  //UC-10 Ability to get number of contact persons i.e.count by City or State - Search Result
                 }
 
-                else
-                {
-                    Console.WriteLine("Contact Not Found At That City Or State");
-                }
+            }
+            if (!found)
+            {
+                Console.WriteLine("Contact Not Found At That City Or State");
+            }
+            else
+            {
+                Console.WriteLine("Total Contacts in City Or State: "+PersonCount);     //UC-10 Ability to get number of contact persons i.e.count by City or State - Search Result
             }
         }
 
