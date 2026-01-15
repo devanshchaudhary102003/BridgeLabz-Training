@@ -188,11 +188,34 @@ namespace AddressBook_System
             }
         }
 
+        public void SearchPersonByCityOrPerson()    //UC-8  Ability to search Person in a City or State across the multiple Address Book
+        {
+            Console.WriteLine("Enter City or State: ");
+            string location = Console.ReadLine();
+
+            bool found = false;
+
+            for(int i = 0; i < count; i++)
+            {
+                if(addressBooks[i] != null && ((addressBooks[i].city.Equals(location, StringComparison.OrdinalIgnoreCase)) || (addressBooks[i].state.Equals(location, StringComparison.OrdinalIgnoreCase))))
+                {
+                    Console.WriteLine(addressBooks[i]);
+                    found = true;
+                }
+
+                else
+                {
+                    Console.WriteLine("Contact Not Found At That City Or State");
+                }
+            }
+        }
+
         public void DisplayDetails()
         {
             for(int i = 0; i < count; i++)
             {
-                Console.WriteLine("Display Details: " + addressBooks[i]);
+                Console.WriteLine("----------------------- Display Details -------------------------");
+                Console.WriteLine(addressBooks[i]);
             }
         }
     }

@@ -68,7 +68,6 @@ namespace AddressBook_System
 
         public override string? ToString()
         {
-            Console.WriteLine("Contact Details: ");
             return "\nFirst Name: " + firstName + " \nLastName: " + lastName + " \nAddress: " + address + " \nCity: " + city + " \nState: " + state + " \nZip: " + zip + " \nPhone Number: " + phonenumber + " \nEmail Address: " + email;
         }
     }
