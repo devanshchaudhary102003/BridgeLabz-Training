@@ -216,6 +216,35 @@ namespace AddressBook_System
             }
         }
 
+        public void SortEntriesByName()     //UC-11 Ability to sort the entries in the address book alphabetically by Person’s name
+        {
+            if(count == 0)
+            {
+                Console.WriteLine("No Contacts Availbale To Sort");
+                return;
+            }
+
+            for(int i = 0; i < count; i++)
+            {
+                for(int j = i + 1; j < count; j++)
+                {
+                    if (string.Compare(addressBooks[i].firstName , addressBooks[j].firstName,StringComparison.OrdinalIgnoreCase) > 0)
+                    {
+                        AddressBook temp = addressBooks[i];
+                        addressBooks[i] = addressBooks[j];
+                        addressBooks[j] = temp;
+                    }
+                }
+            }
+
+            Console.WriteLine("--------- Contact Sorted By Name -------------");
+            for(int i = 0; i < count; i++)
+            {
+                Console.WriteLine(addressBooks[i]);
+                Console.WriteLine("----------------------------------");
+            }
+        }
+
         public void DisplayDetails()
         {
             for(int i = 0; i < count; i++)
