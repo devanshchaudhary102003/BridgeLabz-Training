@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace AddressBook_System
 {
@@ -14,7 +15,7 @@ namespace AddressBook_System
 
         public void AddContact()    //UC-2
         {
-            if(count == addressBooks.Length)
+            if (count == addressBooks.Length)
             {
                 Console.WriteLine("Address Book is full. Cannot and More Contacts");
                 return;
@@ -25,33 +26,42 @@ namespace AddressBook_System
             Console.WriteLine("Enter First Name: ");
             contact.firstName = Console.ReadLine();
 
-            Console.WriteLine("Enter Last Name: ");
-            contact.lastName = Console.ReadLine();
+            for (int i = 0; i < count; i++)      //UC-6
+            {
+                if (addressBooks[i] != null && addressBooks[i].firstName.Equals(contact.firstName, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("Contact Details Already Exists");
+                    return;
+                }
+            }
+                Console.WriteLine("Enter Last Name: ");
+                contact.lastName = Console.ReadLine();
 
-            Console.Write("Enter Address: ");
-            contact.address = Console.ReadLine();
+                Console.Write("Enter Address: ");
+                contact.address = Console.ReadLine();
 
-            Console.Write("Enter City: ");
-            contact.city = Console.ReadLine();
+                Console.Write("Enter City: ");
+                contact.city = Console.ReadLine();
 
-            Console.Write("Enter State: ");
-            contact.state = Console.ReadLine();
+                Console.Write("Enter State: ");
+                contact.state = Console.ReadLine();
 
-            Console.Write("Enter Zip: ");
-            contact.zip = Console.ReadLine();
+                Console.Write("Enter Zip: ");
+                contact.zip = Console.ReadLine();
 
-            Console.Write("Enter Phone Number: ");
-            contact.phonenumber = Console.ReadLine();
+                Console.Write("Enter Phone Number: ");
+                contact.phonenumber = Console.ReadLine();
 
-            Console.Write("Enter Email: ");
-            contact.email = Console.ReadLine();
+                Console.Write("Enter Email: ");
+                contact.email = Console.ReadLine();
 
-            addressBooks[count] = contact;
-            count++;
+                addressBooks[count] = contact;
+                count++;
 
-            Console.WriteLine(contact);
-            Console.WriteLine("\nContact added Successfully!");
-        }
+                Console.WriteLine(contact);
+                Console.WriteLine("\nContact added Successfully!");
+            }
+        
 
         public void EditContact()   //UC-3
         {
