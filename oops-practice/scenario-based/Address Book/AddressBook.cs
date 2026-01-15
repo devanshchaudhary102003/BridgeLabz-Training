@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace AddressBook_System
 {
-    internal class AddressBook  //UC-1
+    internal class AddressBook  //UC-1 Ability to create a Contacts in Address Book with first and last names, address,city, state, zip, phone number and email...
     {
         private string FirstName;
         private string LastName;
@@ -67,7 +68,8 @@ namespace AddressBook_System
 
         public override string? ToString()
         {
-            return "First Name: " + firstName + " ,LastName: " + lastName + " ,Address: " + address + " ,City: " + city + " ,State: " + state + " ,Zip: " + zip + " ,Phone Number: " + phonenumber + " ,Email Address: " + email;
+            Console.WriteLine("Contact Details: ");
+            return "\nFirst Name: " + firstName + " \nLastName: " + lastName + " \nAddress: " + address + " \nCity: " + city + " \nState: " + state + " \nZip: " + zip + " \nPhone Number: " + phonenumber + " \nEmail Address: " + email;
         }
     }
 }

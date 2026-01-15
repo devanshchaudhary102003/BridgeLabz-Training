@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -9,11 +10,11 @@ namespace AddressBook_System
 {
     internal class AddressBookUtilityImpl:IAddressBook
     {
-        private AddressBook[] addressBooks = new AddressBook[10];   //UC-5
+        private AddressBook[] addressBooks = new AddressBook[10];   //UC-5  Ability to add multiple person to Address Book
 
         private int count = 0;
 
-        public void AddContact()    //UC-2
+        public void AddContact()    //UC-2  Ability to add a new Contact to Address Book
         {
             if (count == addressBooks.Length)
             {
@@ -26,9 +27,9 @@ namespace AddressBook_System
             Console.WriteLine("Enter First Name: ");
             contact.firstName = Console.ReadLine();
 
-            for (int i = 0; i < count; i++)      //UC-6
+            for (int i = 0; i < count; i++)      //UC-6 Refactor to add multiple Address Book to the System.Each Address Book has a unique Name
             {
-                if (addressBooks[i] != null && addressBooks[i].firstName.Equals(contact.firstName, StringComparison.OrdinalIgnoreCase))
+                if (addressBooks[i] != null && addressBooks[i].firstName.Equals(contact.firstName, StringComparison.OrdinalIgnoreCase)) //UC-7 Ability to ensure there is no Duplicate Entry of the same Person in a particular Address Book - Duplicate
                 {
                     Console.WriteLine("Contact Details Already Exists");
                     return;
@@ -63,7 +64,7 @@ namespace AddressBook_System
             }
         
 
-        public void EditContact()   //UC-3
+        public void EditContact()   //UC-3  Ability to edit existing contact person using their name
         {
             if(count == 0)
             {
@@ -156,7 +157,7 @@ namespace AddressBook_System
             Console.WriteLine("Contact Not Found");
         }
 
-        public void DeleteContact() //UC-4
+        public void DeleteContact() //UC-4  Ability to delete a person using person's name - Use Console to delete a person
         {
             if(count == 0)
             {
