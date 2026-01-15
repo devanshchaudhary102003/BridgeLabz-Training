@@ -261,3 +261,11 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Problem solved on Best, Worst, and Average Case Complexities.
 - Solved One Project Based On **Address Book Problem**
 - Solved One LeetCode Question On Linked-List**Middle Of The Linked List**
+
+---
+
+## 📅 Date: 15 January 2025
+
+### 📘 Topic
+- Continue Solve Previous Project Based On **Address Book Problem** And Completer All the UC.
+- Solved One Scenario-Based Questions on **BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)**
