@@ -259,7 +259,7 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Best, Worst, and Average Case Complexities
 - Practical Guidelines for Optimizing C# Code
 - Problem solved on Best, Worst, and Average Case Complexities.
-- Solved One Project Based On **Address Book Problem**
+- Solved One Mini Project Based On **Address Book Problem**
 - Solved One LeetCode Question On Linked-List**Middle Of The Linked List**
 
 ---
@@ -267,5 +267,13 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 ## 📅 Date: 15 January 2025
 
 ### 📘 Topic
-- Continue Solve Previous Project Based On **Address Book Problem** And Completer All the UC.
+- Continue Solve Previous Project Based On **Address Book Problem** And Completed All the UC.
 - Solved One Scenario-Based Questions on **BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)**
+
+---
+
+## 📅 Date: 16 January 2025
+
+### 📘 Topic
+- Solved One Scenario-Based Questions on **Traffic Manager** And By Solve it using DSA Concepts,OOPS and Core c#.In DSA we use Circular Linked List,
+- Solved One Scenario-Based Questions on **Book Shelf** And By Solve it using DSA Concepts,OOPS and Core c#. In DSA we use Linked List, HashMap.
