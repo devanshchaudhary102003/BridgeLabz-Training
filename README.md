@@ -277,3 +277,11 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 ### 📘 Topic
 - Solved One Scenario-Based Questions on **Traffic Manager** And By Solve it using DSA Concepts,OOPS and Core c#.In DSA we use Circular Linked List,
 - Solved One Scenario-Based Questions on **Book Shelf** And By Solve it using DSA Concepts,OOPS and Core c#. In DSA we use Linked List, HashMap.
+
+---
+
+## 📅 Date: 17 January 2025
+
+### 📘 Topic
+- Solved One Scenario-Based Questions on **FlashDealz – Product Sorting by Discount (Quick Sort)**
+- Solved One Scenario-Based Questions on **FitnessTracker – Daily Step Count Ranking (Bubble Sort)**
