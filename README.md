@@ -294,3 +294,13 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Solved One Scenario-Based Questions on **ParcelTracker – Delivery Chain Management (Singly Linked List)**
 - Solved One Scenario-Based Questions on **ExamProctor – Online Exam Review System (Stack + HashMap +
 Functions)**
+- Completed Csharp Generics.
+
+---
+
+## 📅 Date: 20 January 2025
+
+### 📘 Topic
+- Solved Questions On Generics
+- Solved One Scenario-Based Questions on **Sorting Aadhar Numbers using Radix Sort**
+- Solved One Scenario-Based Questions on **Password Cracker Simulator Using Backtracking**
