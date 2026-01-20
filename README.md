@@ -285,3 +285,12 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 ### 📘 Topic
 - Solved One Scenario-Based Questions on **FlashDealz – Product Sorting by Discount (Quick Sort)**
 - Solved One Scenario-Based Questions on **FitnessTracker – Daily Step Count Ranking (Bubble Sort)**
+
+---
+
+## 📅 Date: 19 January 2025
+
+### 📘 Topic
+- Solved One Scenario-Based Questions on **ParcelTracker – Delivery Chain Management (Singly Linked List)**
+- Solved One Scenario-Based Questions on **ExamProctor – Online Exam Review System (Stack + HashMap +
+Functions)**
