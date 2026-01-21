@@ -304,3 +304,24 @@ Functions)**
 - Solved Questions On Generics
 - Solved One Scenario-Based Questions on **Sorting Aadhar Numbers using Radix Sort**
 - Solved One Scenario-Based Questions on **Password Cracker Simulator Using Backtracking**
+- - Overview of Collections Framework
+- What is the Collections Framework?
+- Hierarchy of Collections Framework
+- List Interface and Implementing Classes
+
+---
+
+## 📅 Date: 21 January 2025
+
+### 📘 Topic
+- Solved One Scenario-Based Questions on **EduResults – Rank Sheet Generator (Merge Sort)**
+- Solved One Scenario-Based Questions on **SmartCheckout – Supermarket Billing Queue (Queue + HashMap)**
+- Overview of Collections Framework
+- What is the Collections Framework?
+- Hierarchy of Collections Framework
+- List Interface and Implementing Classes
+- Set Interface and Implementing Classes
+- Queue and Deque Interfaces
+- Map Interface and Its Implementations
+- Comparison of Different Implementations
+- Real-World Use Cases and Best Practices.
