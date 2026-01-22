@@ -321,3 +321,18 @@ Functions)**
 - Map Interface and Its Implementations
 - Comparison of Different Implementations
 - Real-World Use Cases and Best Practices.
+
+---
+
+## 📅 Date: 22 January 2025
+
+### 📘 Topic
+- Solved One Scenario-Based Questions on **AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)**
+- C# I/O Streams
+- Types of Streams
+- File Streams
+- Object Streams
+- ByteArray Streams
+- Buffered Streams
+- Reader and Writer
+- Key Considerations
