@@ -355,4 +355,24 @@ Functions)**
 - throw statement
 - Creating Custom Exceptions
 - Extending Exception Class
-Defining Constructors
+- Defining Constructors
+
+---
+
+## 📅 Date: 26 January 2025
+
+### 📘 Topic
+- Regex, MetaCharacter, Quantifier
+- Common Patterns:
+- Email Validation
+- Password Strength
+- Phone Number Format
+- C# Regex API
+- Pattern
+- Matcher
+- Methods: find(), matches(), replaceAll()
+- Introduction to NUnit Framework
+- NUnit Annotations
+- Writing Test Cases
+- Structure of a Test Class
+- Assertions
