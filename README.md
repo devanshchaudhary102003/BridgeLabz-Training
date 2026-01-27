@@ -209,7 +209,7 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 
 ---
 
-## 📅 Date: 09 January 2025
+## 📅 Date: 09 January 2026
 
 ### 📘 Topic
 - Solved One Scenario-Based Questions on OOPS Concept **FitTrack – Fitness Tracker**
@@ -222,7 +222,7 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 
 ---
 
-## 📅 Date: 11 January 2025
+## 📅 Date: 11 January 2026
 
 ### 📘 Topic
 - Bubble Sort,Insertion Sort,Merge Sort, and Quick Sort
@@ -231,7 +231,7 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 
 ---
 
-## 📅 Date: 12 January 2025
+## 📅 Date: 12 January 2026
 
 ### 📘 Topic
 - Solved One Scenario-Based Questions on OOPS Concept **Metal Factory Pipe Cutting**
@@ -242,16 +242,17 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Solved One LeetCode Question Based On LinkedList **Delete Node in a Linked List**
 ---
 
-## 📅 Date: 13 January 2025
+## 📅 Date: 13 January 2026
 
 ### 📘 Topic
 - Solved Two Scenario-Based Questions on **1.Custom Furniture Manufacturing 2.LoanBuddy – Loan Approval Automation**
 - Solved Two Scenario-Based Questions on **1.CinemaTime – Movie Schedule Manager 2.BookBuddy – Digital Bookshelf App**
 - Solved Questions Based On InputStreamReader,FileReader,Linear Search and Binary Search.
+- Solved One LeetCode Question Based On LinkedList **Remove Linked List Elements**
 
 ---
 
-## 📅 Date: 14 January 2025
+## 📅 Date: 14 January 2026
 
 ### 📘 Topic
 - What is Runtime Analysis?
@@ -266,7 +267,7 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 
 ---
 
-## 📅 Date: 15 January 2025
+## 📅 Date: 15 January 2026
 
 ### 📘 Topic
 - Continue Solve Previous Project Based On **Address Book Problem** And Completed All the UC.
@@ -274,7 +275,7 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 
 ---
 
-## 📅 Date: 16 January 2025
+## 📅 Date: 16 January 2026
 
 ### 📘 Topic
 - Solved One Scenario-Based Questions on **Traffic Manager** And By Solve it using DSA Concepts,OOPS and Core c#.In DSA we use Circular Linked List,
@@ -282,7 +283,7 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 
 ---
 
-## 📅 Date: 17 January 2025
+## 📅 Date: 17 January 2026
 
 ### 📘 Topic
 - Solved One Scenario-Based Questions on **FlashDealz – Product Sorting by Discount (Quick Sort)**
@@ -290,7 +291,7 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 
 ---
 
-## 📅 Date: 19 January 2025
+## 📅 Date: 19 January 2026
 
 ### 📘 Topic
 - Solved One Scenario-Based Questions on **ParcelTracker – Delivery Chain Management (Singly Linked List)**
@@ -300,7 +301,7 @@ Functions)**
 
 ---
 
-## 📅 Date: 20 January 2025
+## 📅 Date: 20 January 2026
 
 ### 📘 Topic
 - Solved Questions On Generics
@@ -313,7 +314,7 @@ Functions)**
 
 ---
 
-## 📅 Date: 21 January 2025
+## 📅 Date: 21 January 2026
 
 ### 📘 Topic
 - Solved One Scenario-Based Questions on **EduResults – Rank Sheet Generator (Merge Sort)**
@@ -326,7 +327,7 @@ Functions)**
 
 ---
 
-## 📅 Date: 22 January 2025
+## 📅 Date: 22 January 2026
 
 ### 📘 Topic
 - Solved One Scenario-Based Questions on **AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)**
@@ -341,7 +342,7 @@ Functions)**
 
 ---
 
-## 📅 Date: 23 January 2025
+## 📅 Date: 23 January 2026
 
 ### 📘 Topic
 - Exceptions 
@@ -361,7 +362,7 @@ Functions)**
 
 ---
 
-## 📅 Date: 26 January 2025
+## 📅 Date: 26 January 2026
 
 ### 📘 Topic
 - Regex, MetaCharacter, Quantifier
@@ -379,3 +380,19 @@ Functions)**
 - Structure of a Test Class
 - Assertions
 
+---
+
+## 📅 Date: 27 January 2026
+
+### 📘 Topic
+- Introduction to **Annotations**
+- Common Built-in Annotations
+- Creating Custom Annotations
+- Advanced Custom Annotations
+- Real-World Use Cases
+- Annotation Processing Tools
+
+- **Reflection**
+- Understanding of Reflection
+- Using Reflection in .NET
+- Annotations and Reflection
