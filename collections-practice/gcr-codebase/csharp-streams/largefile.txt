@@ -1,0 +1,5 @@
+System started successfully
+ERROR: Disk not found
+User logged in
+Warning: low memory
+error: network timeout
