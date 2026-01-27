@@ -205,6 +205,7 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - Double Linked List
 - Circular Linked List
 - Solved Problem Based On Single Linked List, Double Linked List and Circular Linked List.
+- Solved One LeetCode Question Based On Linked List **Linked List Cycle**
 
 ---
 
@@ -226,6 +227,7 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 ### 📘 Topic
 - Bubble Sort,Insertion Sort,Merge Sort, and Quick Sort
 - Solved Problem Based On Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort,Heap Sort and Counting Sort.
+- Solved One LeetCode Question Based On LinkedList **Remove Nth Node From End of List**
 
 ---
 
@@ -237,7 +239,7 @@ C# Control Flows,C# boolean Data Type,Boolean Expressions,Logical Operators,if C
 - InputStreamReader,FileReader
 - Linear Search and Binary Search
 - Solved Questions Based On StringBuilder,StringBuffer.
-
+- Solved One LeetCode Question Based On LinkedList **Delete Node in a Linked List**
 ---
 
 ## 📅 Date: 13 January 2025
@@ -376,3 +378,4 @@ Functions)**
 - Writing Test Cases
 - Structure of a Test Class
 - Assertions
+
