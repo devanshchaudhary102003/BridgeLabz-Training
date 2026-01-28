@@ -392,7 +392,18 @@ Functions)**
 - Real-World Use Cases
 - Annotation Processing Tools
 
-- **Reflection**
+ **Reflection**
 - Understanding of Reflection
 - Using Reflection in .NET
 - Annotations and Reflection
+
+---
+
+## 📅 Date: 28 January 2026
+
+### 📘 Topic
+- Introduction to CSV
+- Reading CSV Files
+- Writing CSV Files
+- Parsing CSV Data
+- Data Validation
