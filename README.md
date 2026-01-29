@@ -407,3 +407,14 @@ Functions)**
 - Writing CSV Files
 - Parsing CSV Data
 - Data Validation
+
+---
+
+## 📅 Date: 29 January 2026
+
+### 📘 Topic
+- Introduction to JSON
+- Reading JSON Data
+- Writing JSON Data
+- Parsing JSON Data
+- JSON Schema Validation
