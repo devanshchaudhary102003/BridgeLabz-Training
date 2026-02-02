@@ -20,5 +20,7 @@ namespace AddressBook_System
         void SortEntriesByZip();              //UC-12 Ability to sort the entries in the address book by zip
         void WriteToFile();                   //UC-13 Ability to Write  the Address Book with Persons contact into File using File IO
         void ReadFromFile();                  //UC-13 Ability to Read  the Address Book with Persons contact into File using File IO
+        void WriteToCsv();                    //UC-14 Ability to Write the Address Book with Persons Contact as CSV File
+        void ReadFromCsv();                   //UC-14 Ability to Read the Address Book with Persons Contact as CSV File
     }
 }

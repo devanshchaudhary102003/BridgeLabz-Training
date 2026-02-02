@@ -344,6 +344,80 @@ namespace AddressBook_System
             Console.WriteLine("Address Book read from file successfully.");
         }
 
+        string csvPath = "AddressBook.csv";
+        public void WriteToCsv()   //UC-14 Ability to Write the Address Book with Persons Contact as CSV File
+        {
+            if (addressBooks.Count == 0)
+            {
+                Console.WriteLine("No contacts to write into CSV.");
+                return;
+            }
+
+            using (StreamWriter writer = new StreamWriter(csvPath))
+            {
+                // Header
+                writer.WriteLine("FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email");
+
+                foreach (var c in addressBooks)
+                {
+                    writer.WriteLine(
+                        c.firstName + "," +
+                        c.lastName + "," +
+                        c.address + "," +
+                        c.city + "," +
+                        c.state + "," +
+                        c.zip + "," +
+                        c.phonenumber + "," +
+                        c.email
+                    );
+                }
+            }
+
+            Console.WriteLine("Contacts saved to CSV successfully.");
+        }
+
+
+        public void ReadFromCsv()   //UC-14 Ability to Read the Address Book with Persons Contact as CSV File
+        {
+            if (!File.Exists(csvPath))
+            {
+                Console.WriteLine("CSV file not found.");
+                return;
+            }
+
+            string[] lines = File.ReadAllLines(csvPath);
+
+            if (lines.Length <= 1)
+            {
+                Console.WriteLine("CSV has no data.");
+                return;
+            }
+
+            addressBooks.Clear();
+
+            // Skip header
+            for (int i = 1; i < lines.Length; i++)
+            {
+                if (string.IsNullOrWhiteSpace(lines[i]))
+                    continue;
+
+                string[] data = lines[i].Split(',');
+
+                AddressBook c = new AddressBook();
+                c.firstName = data[0];
+                c.lastName = data[1];
+                c.address = data[2];
+                c.city = data[3];
+                c.state = data[4];
+                c.zip = data[5];
+                c.phonenumber = data[6];
+                c.email = data[7];
+
+                addressBooks.Add(c);
+            }
+
+            Console.WriteLine("Contacts loaded from CSV successfully.");
+        }
         public void DisplayDetails()
         {
             if (addressBooks.Count == 0)
