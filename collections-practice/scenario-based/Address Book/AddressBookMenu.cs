@@ -26,6 +26,8 @@ namespace AddressBook_System
                 Console.WriteLine("7. Sort Entries By City");   //UC-12 Ability to sort the entries in the address book by city
                 Console.WriteLine("8. Sort Entries By State");  //UC-12 Ability to sort the entries in the address book by state
                 Console.WriteLine("9. Sort Entries By Zip");    //UC-12 Ability to sort the entries in the address book by zip
+                Console.WriteLine("10. Write Address Book To File"); //UC-13 Ability to Write  the Address Book with Persons contact into File using File IO
+                Console.WriteLine("11. Read Address Book From File"); //UC-13 Ability to Read  the Address Book with Persons contact into File using File IO
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter your choice: ");
 
@@ -67,6 +69,14 @@ namespace AddressBook_System
 
                     case 9:
                         Contact.SortEntriesByZip();                 //UC-12 Ability to sort the entries in the address book by zip
+                        break;
+
+                    case 10:
+                        Contact.WriteToFile();                      //UC-13 Ability to Write the Address Book with Persons contact into File using File IO
+                        break;
+
+                    case 11:
+                        Contact.ReadFromFile();                     //UC-13 Ability to Read the Address Book with Persons contact into File using File IO
                         break;
 
 

@@ -18,5 +18,7 @@ namespace AddressBook_System
         void SortEntriesByCity();             //UC-12 Ability to sort the entries in the address book by city
         void SortEntriesByState();            //UC-12 Ability to sort the entries in the address book by state
         void SortEntriesByZip();              //UC-12 Ability to sort the entries in the address book by zip
+        void WriteToFile();                   //UC-13 Ability to Write  the Address Book with Persons contact into File using File IO
+        void ReadFromFile();                  //UC-13 Ability to Read  the Address Book with Persons contact into File using File IO
     }
 }

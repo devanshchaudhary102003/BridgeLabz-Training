@@ -5,6 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using System.IO;
 
 namespace AddressBook_System
 {
@@ -13,7 +14,7 @@ namespace AddressBook_System
         // ✅ Array -> List (UC-5 refactor style)
         private readonly List<AddressBook> addressBooks = new List<AddressBook>();
 
-        public void AddContact() // UC-2
+        public void AddContact() //UC-2  Ability to add a new Contact to Address Book
         {
             AddressBook contact = new AddressBook();
 
@@ -58,7 +59,7 @@ namespace AddressBook_System
             Console.WriteLine("\nContact added Successfully!");
         }
 
-        public void EditContact() // UC-3
+        public void EditContact() //UC-3  Ability to edit existing contact person using their name
         {
             if (addressBooks.Count == 0)
             {
@@ -158,7 +159,7 @@ namespace AddressBook_System
             Console.WriteLine("Contact Not Found");
         }
 
-        public void DeleteContact() // UC-4
+        public void DeleteContact() //UC-4   Ability to delete a person using person's name - Use Console to delete a person
         {
             if (addressBooks.Count == 0)
             {
@@ -210,7 +211,7 @@ namespace AddressBook_System
                 Console.WriteLine("Total Contacts in City Or State: " + personCount);
         }
 
-        public void SortEntriesByName() // UC-11
+        public void SortEntriesByName() ///UC-11 Ability to sort the entries in the address book alphabetically by Person’s name
         {
             if (addressBooks.Count == 0)
             {
@@ -230,7 +231,7 @@ namespace AddressBook_System
             }
         }
 
-        public void SortEntriesByCity()
+        public void SortEntriesByCity()//UC-12 Ability to sort the entries in the address book by city
         {
             if(addressBooks.Count == 0)
             {
@@ -248,7 +249,7 @@ namespace AddressBook_System
             }
         }
 
-        public void SortEntriesByState()
+        public void SortEntriesByState()//UC-12 Ability to sort the entries in the address book by state
         {
             if(addressBooks.Count == 0)
             {
@@ -265,7 +266,7 @@ namespace AddressBook_System
             }
         }
 
-        public void SortEntriesByZip()
+        public void SortEntriesByZip()//UC-12 Ability to sort the entries in the address book by zip
         {
             if(addressBooks.Count == 0)
             {
@@ -280,6 +281,67 @@ namespace AddressBook_System
                 Console.WriteLine(addressBooks[i]);
                 Console.WriteLine("----------------------------------------");
             }
+        }
+
+        string filePath = "AddressBook.txt";
+
+        public void WriteToFile() //UC-13 Ability to Write  the Address Book with Persons contact into File using File IO
+        {
+            if(addressBooks.Count == 0)
+            {
+                Console.WriteLine("No contact to write into file.");
+                return;
+            }
+
+            using(StreamWriter writer = new StreamWriter(filePath))
+            {
+                foreach(AddressBook contact  in addressBooks)
+                {
+                    writer.WriteLine(
+                        contact.firstName + ","+
+                        contact.lastName + ","+
+                        contact.address+","+
+                        contact.city + ","+
+                        contact.state + ","+
+                        contact.zip + ","+
+                        contact.phonenumber+","+
+                        contact.email
+                    );
+                }
+            }
+            Console.WriteLine("Address Book written to file successfully");
+        }
+
+        public void ReadFromFile()  //UC-13 Ability to Read  the Address Book with Persons contact into File using File IO
+        {
+            if (!File.Exists(filePath))
+            {
+                Console.WriteLine("File not found");
+                return;
+            }
+
+            addressBooks.Clear();
+
+            string[] lines = File.ReadAllLines(filePath);
+
+            foreach(string line in lines)
+            {
+                string[] data = line.Split(',');
+
+                AddressBook contact = new AddressBook();
+                contact.firstName = data[0];
+                contact.lastName = data[1];
+                contact.address = data[2];
+                contact.city = data[3];
+                contact.state = data[4];
+                contact.zip = data[5];
+                contact.phonenumber = data[6];
+                contact.email = data[7];
+
+                addressBooks.Add(contact);
+                Console.WriteLine(contact);
+            }
+            Console.WriteLine("Address Book read from file successfully.");
         }
 
         public void DisplayDetails()
