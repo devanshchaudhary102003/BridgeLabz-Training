@@ -1,0 +1,14 @@
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\bin\Debug\net10.0\EventTracker.exe
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\bin\Debug\net10.0\EventTracker.deps.json
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\bin\Debug\net10.0\EventTracker.runtimeconfig.json
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\bin\Debug\net10.0\EventTracker.dll
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\bin\Debug\net10.0\EventTracker.pdb
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\obj\Debug\net10.0\EventTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\obj\Debug\net10.0\EventTracker.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\obj\Debug\net10.0\EventTracker.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\obj\Debug\net10.0\EventTracker.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\obj\Debug\net10.0\EventTracker.dll
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\obj\Debug\net10.0\refint\EventTracker.dll
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\obj\Debug\net10.0\EventTracker.pdb
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\obj\Debug\net10.0\EventTracker.genruntimeconfig.cache
+C:\Users\DELL\Desktop\Practice\EventTracker\EventTracker\obj\Debug\net10.0\ref\EventTracker.dll
