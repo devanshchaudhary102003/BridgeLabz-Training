@@ -1112,7 +1112,6 @@ MyProject
 - Uses HTTP Methods
 - Uses Resource-based URLs
 - Returns JSON
-
 ---
 
 ## HTTP Methods
@@ -1149,5 +1148,183 @@ MyProject
 ---
 
 ## Conclusion
-
 This project demonstrates how to build a complete ASP.NET Core REST API using MVC architecture and REST principles.
+
+```
+
+## 📅 Date: 18 February 2026
+
+### 📘 Topic
+## 📌 Project Overview
+
+**QuantityMeasurementApp** is a production-ready C# console application developed as part of practical learning.
+
+The application is designed to perform unit conversions for different quantity measurements such as:
+
+- Length
+- Weight
+- Temperature
+- Volume
+
+The system follows:
+
+- Clean Architecture
+- SOLID Principles
+- Proper Naming Conventions
+- Professional Git Workflow
+- Production-Ready Code Standards
+
+The core service class used in this project is:
+
+`QuantityMeasurementService`
+
+The application ensures:
+
+- Accurate unit conversion
+- Exception handling
+- Clean code structure
+- Proper documentation
+
+---
+
+## 🚀 Features
+
+- Convert length units (Meter, Kilometer, Centimeter, etc.)
+- Convert weight units (Gram, Kilogram, etc.)
+- Convert temperature units (Celsius, Fahrenheit, Kelvin)
+- Convert volume units (Liter, Milliliter, etc.)
+- Exception handling for invalid inputs
+- Clean service-based architecture
+- Meaningful method names like `ConvertUnits()`
+- Proper variable naming like `totalUnits`
+- No unnecessary commented-out code
+- SOLID principle implementation
+
+---
+
+## 🧱 Project Structure
+
+```
+QuantityMeasurementApp
+│
+├── Services
+│     └── QuantityMeasurementService.cs
+│
+├── Models
+│     └── (Measurement Models)
+│
+├── Program.cs
+└── README.md
+```
+
+---
+
+## 🛠 Tech Stack
+
+- C#
+- .NET 6 / .NET 7
+- Console Application
+- Git & GitHub
+- Clean Architecture Principles
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/QuantityMeasurementApp.git
+```
+
+2. Navigate to the project folder:
+
+```
+cd QuantityMeasurementApp
+```
+
+3. Build the project:
+
+```
+dotnet build
+```
+
+4. Run the application:
+
+```
+dotnet run
+```
+
+---
+
+## 🌿 Branch Strategy
+
+We follow a structured branching strategy:
+
+### 🔹 main
+- Production-ready code
+- Stable and tested version
+- Contains documentation (README)
+
+### 🔹 develop
+- Integration branch
+- All features are merged here before main
+
+### 🔹 feature/<feature-name>
+- Individual feature development
+- Example:
+  - feature/length-conversion
+  - feature/temperature-conversion
+
+---
+
+## 📝 Commit Message Format (Strictly Followed)
+
+All commits follow this professional format:
+
+```
+[Name].Add - Implemented length unit conversion
+[Name].Refactor - Improved conversion logic structure
+```
+
+### ✅ Examples
+
+```
+Sahil.Add - Added temperature conversion logic
+Riya.Refactor - Cleaned up validation logic
+```
+
+### ❌ Avoid
+
+- update
+- changes
+- done
+- final
+
+Commit messages must be clear and professional.
+
+---
+
+## 🧠 Code Standards Followed
+
+- Proper indentation
+- Clean architecture
+- SOLID principles
+- Meaningful class and method names
+- Proper exception handling
+- No unnecessary commented-out code
+- Professional naming conventions
+
+---
+
+## ✅ Conclusion
+
+QuantityMeasurementApp is a clean, structured, and production-ready application built to demonstrate:
+
+- Unit conversion logic
+- Service-based architecture
+- Professional Git workflow
+- Clean coding standards
+- Industry best practices
+
+---
