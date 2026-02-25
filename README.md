@@ -1011,3 +1011,322 @@ Treat this as a real-time industry application and be prepared for regular revie
 - Group results by date, doctor, or specialty.  
 - Use the `BETWEEN` operator for date range filtering.  
 - Apply the `HAVING` clause for revenue threshold filtering.
+ 
+---
+
+## 📅 Date: 17 February 2026
+
+### 📘 Topic
+# 🚀 ASP.NET Core – Student Management REST API
+ASP.NET Core Web API Development
+
+---
+
+## 📌 Project Overview
+
+This project demonstrates how to build a RESTful API using ASP.NET Core.
+
+It covers:
+
+- ASP.NET Core Basics
+- Web API
+- REST Principles
+- HTTP Methods (GET, POST, PUT, DELETE)
+- MVC Pattern
+- Routing
+- Middleware
+- IActionResult
+- CRUD Operations
+
+---
+
+## 🧱 What is ASP.NET Core?
+
+ASP.NET Core is a modern, open-source, cross-platform framework used to build:
+
+- Web Applications  
+- REST APIs  
+- Microservices  
+- Cloud Applications  
+
+It runs on:
+
+- Windows  
+- Linux  
+- macOS  
+
+Built on top of the .NET Runtime.
+
+---
+
+## ⚡ ASP.NET vs ASP.NET Core
+
+| Feature | ASP.NET | ASP.NET Core |
+|----------|----------|--------------|
+| Platform | Windows only | Cross-platform |
+| Performance | Slower | Very Fast |
+| Open Source | No | Yes |
+| Hosting | IIS only | IIS, Kestrel, Docker |
+
+---
+
+## 🏗️ Architecture Flow
+
+Client (Browser / Postman)  
+↓  
+Kestrel Server  
+↓  
+Middleware Pipeline  
+↓  
+Routing  
+↓  
+Controller  
+↓  
+Business Logic  
+↓  
+Database  
+↓  
+Response  
+
+---
+
+## 📂 Project Structure
+
+```
+MyProject
+│
+├── Controllers
+│     └── StudentController.cs
+│
+├── Models
+│     └── Student.cs
+│
+├── Program.cs
+├── appsettings.json
+
+---
+
+## REST Principles
+
+- Stateless
+- Uses HTTP Methods
+- Uses Resource-based URLs
+- Returns JSON
+
+---
+
+## HTTP Methods
+
+| Method | Purpose |
+|--------|----------|
+| GET | Read |
+| POST | Create |
+| PUT | Update |
+| DELETE | Delete |
+
+---
+
+## HTTP Status Codes
+
+| Code | Meaning |
+|------|----------|
+| 200 | OK |
+| 201 | Created |
+| 400 | Bad Request |
+| 404 | Not Found |
+| 500 | Server Error |
+
+---
+
+## Tools Used
+
+- .NET 6
+- ASP.NET Core
+- C#
+- Postman
+- Visual Studio
+
+---
+
+## Conclusion
+
+This project demonstrates how to build a complete ASP.NET Core REST API using MVC architecture and REST principles.
+ 
+---
+
+## 📅 Date: 18 February 2026
+
+### 📘 Topic
+## 📌 Project Overview
+
+**QuantityMeasurementApp** is a production-ready C# console application developed as part of practical learning.
+
+The application is designed to perform unit conversions for different quantity measurements such as:
+
+- Length
+- Weight
+- Temperature
+- Volume
+
+The system follows:
+
+- Clean Architecture
+- SOLID Principles
+- Proper Naming Conventions
+- Professional Git Workflow
+- Production-Ready Code Standards
+
+The core service class used in this project is:
+
+`QuantityMeasurementService`
+
+The application ensures:
+
+- Accurate unit conversion
+- Exception handling
+- Clean code structure
+- Proper documentation
+
+---
+
+## 🚀 Features
+
+- Convert length units (Meter, Kilometer, Centimeter, etc.)
+- Convert weight units (Gram, Kilogram, etc.)
+- Convert temperature units (Celsius, Fahrenheit, Kelvin)
+- Convert volume units (Liter, Milliliter, etc.)
+- Exception handling for invalid inputs
+- Clean service-based architecture
+- Meaningful method names like `ConvertUnits()`
+- Proper variable naming like `totalUnits`
+- No unnecessary commented-out code
+- SOLID principle implementation
+
+---
+
+## 🧱 Project Structure
+
+```
+QuantityMeasurementApp
+│
+├── Services
+│     └── QuantityMeasurementService.cs
+│
+├── Models
+│     └── (Measurement Models)
+│
+├── Program.cs
+└── README.md
+```
+
+---
+
+## 🛠 Tech Stack
+
+- C#
+- .NET 6 / .NET 7
+- Console Application
+- Git & GitHub
+- Clean Architecture Principles
+
+---
+
+##  How to Run
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/QuantityMeasurementApp.git
+```
+
+2. Navigate to the project folder:
+
+```
+cd QuantityMeasurementApp
+```
+
+3. Build the project:
+
+```
+dotnet build
+```
+
+4. Run the application:
+
+```
+dotnet run
+```
+
+---
+
+## 🌿 Branch Strategy
+
+We follow a structured branching strategy:
+
+### 🔹 main
+- Production-ready code
+- Stable and tested version
+- Contains documentation (README)
+
+### 🔹 develop
+- Integration branch
+- All features are merged here before main
+
+### 🔹 feature/<feature-name>
+- Individual feature development
+- Example:
+  - feature/length-conversion
+  - feature/temperature-conversion
+
+---
+
+## 📝 Commit Message Format (Strictly Followed)
+
+All commits follow this professional format:
+
+```
+[Name].Add - Implemented length unit conversion
+[Name].Refactor - Improved conversion logic structure
+```
+
+### Examples
+
+```
+Sahil.Add - Added temperature conversion logic
+Riya.Refactor - Cleaned up validation logic
+```
+
+### Avoid
+
+- update
+- changes
+- done
+- final
+
+Commit messages must be clear and professional.
+
+---
+
+## 🧠 Code Standards Followed
+
+- Proper indentation
+- Clean architecture
+- SOLID principles
+- Meaningful class and method names
+- Proper exception handling
+- No unnecessary commented-out code
+- Professional naming conventions
+
+---
+
+## Conclusion
+
+QuantityMeasurementApp is a clean, structured, and production-ready application built to demonstrate:
+
+- Unit conversion logic
+- Service-based architecture
+- Professional Git workflow
+- Clean coding standards
+- Industry best practices
+
+---
