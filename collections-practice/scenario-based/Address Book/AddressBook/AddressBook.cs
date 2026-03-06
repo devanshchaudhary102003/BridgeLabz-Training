@@ -6,7 +6,7 @@ namespace AddressBook
         private string LastName;
         private string Address;
         private string City;
-        private string State;
+        private string States;
         private string Zip;
         private string PhoneNumber;
         private string Email;
@@ -63,11 +63,11 @@ namespace AddressBook
         {
             get
             {
-                return State;
+                return States;
             }
             set
             {
-                State = value;
+                States = value;
             }
         }
 
@@ -109,7 +109,7 @@ namespace AddressBook
 
         public override string? ToString()
         {
-            return "First Name: "+FirstName+" ,Last Name: "+LastName+" ,Address: "+Address+" ,City: "+City+" ,State: "+State+" ,Zip: "+Zip+" ,Phone Number: "+PhoneNumber+" ,Email Id : "+Email;
+            return "First Name: "+FirstName+" ,Last Name: "+LastName+" ,Address: "+Address+" ,City: "+City+" ,State: "+States+" ,Zip: "+Zip+" ,Phone Number: "+PhoneNumber+" ,Email Id : "+Email;
         }
     }
 }

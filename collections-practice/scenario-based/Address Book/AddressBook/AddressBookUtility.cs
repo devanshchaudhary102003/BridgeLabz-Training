@@ -338,7 +338,7 @@ namespace AddressBook
             }
         }
 
-        public void CountByState()
+        public void CountByStates()
         {
             Console.WriteLine("Enter the state: ");
             string state = Console.ReadLine();

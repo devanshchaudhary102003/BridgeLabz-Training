@@ -72,7 +72,7 @@ namespace AddressBook
                         break;  
 
                     case 11:
-                        bookutility.CountByState();
+                        bookutility.CountByStates();
                         break;
 
                     case 12:

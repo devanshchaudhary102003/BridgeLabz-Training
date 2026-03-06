@@ -13,7 +13,7 @@ namespace AddressBook
         void SearchPersonByCity();
         void SearchPersonByState();
         void CountByCity();
-        void CountByState();
+        void CountByStates();
         void SortByName();
         void SortByCity();
         void SortByState();

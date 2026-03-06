@@ -6,8 +6,8 @@ namespace AddressBook
     {
         static void Main(string[] args)
         {
-            AddressBookMenu menu = new AddressBookMenu();
-            menu.Menu();
+            AddressBookMenu Menu = new AddressBookMenu();
+            Menu.Menu();
         }
     }
 }
