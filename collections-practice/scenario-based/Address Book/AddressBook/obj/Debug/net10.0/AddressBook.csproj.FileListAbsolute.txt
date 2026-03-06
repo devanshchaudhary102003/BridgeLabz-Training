@@ -1,0 +1,14 @@
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\bin\Debug\net10.0\AddressBook.exe
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\bin\Debug\net10.0\AddressBook.deps.json
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\bin\Debug\net10.0\AddressBook.runtimeconfig.json
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\bin\Debug\net10.0\AddressBook.dll
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\bin\Debug\net10.0\AddressBook.pdb
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\obj\Debug\net10.0\AddressBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\obj\Debug\net10.0\AddressBook.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\obj\Debug\net10.0\AddressBook.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\obj\Debug\net10.0\AddressBook.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\obj\Debug\net10.0\AddressBook.dll
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\obj\Debug\net10.0\refint\AddressBook.dll
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\obj\Debug\net10.0\AddressBook.pdb
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\obj\Debug\net10.0\AddressBook.genruntimeconfig.cache
+C:\Users\DELL\Desktop\Practice\Address\AddressBook\obj\Debug\net10.0\ref\AddressBook.dll
