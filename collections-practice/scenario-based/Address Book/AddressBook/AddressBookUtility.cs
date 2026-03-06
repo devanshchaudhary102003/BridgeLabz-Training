@@ -2,34 +2,44 @@ namespace AddressBook
 {
     public class AddressBookUtility : IAddressBook
     {
+        // Object used for storing single contact details
         AddressBook addressBook;
 
+        // UC5 - Dictionary to store multiple address books with unique name
         Dictionary<string,List<AddressBook>> addressBooks = new Dictionary<string, List<AddressBook>>();
+
+        // UC8 - Dictionary to store city wise persons
         Dictionary<string,List<AddressBook>> cityDictionary = new Dictionary<string, List<AddressBook>>();
+
+        // UC8 - Dictionary to store state wise persons
         Dictionary<string,List<AddressBook>> stateDictionary = new Dictionary<string, List<AddressBook>>();
 
+        // UC5 - Add new address book with unique name
         public void AddAddressBook()
         {
             Console.WriteLine("Enter Address Book: ");
             string Book = Console.ReadLine();
 
+            // Check if address book already exists
             if (addressBooks.ContainsKey(Book))
             {
                 Console.WriteLine("Book Already Exits!");
                 return;
             }
 
+            // Add new address book with empty contact list
             addressBooks.Add(Book,new List<AddressBook>());
 
             Console.WriteLine("Book added Successfully");
-
         }
 
+        // UC1, UC4, UC6 - Add new contact to selected address book
         public AddressBook AddPerson()
         {
             Console.WriteLine("Enter Address Book: ");
             string book = Console.ReadLine();
 
+            // Check whether address book exists
             if (!addressBooks.ContainsKey(book))
             {
                 Console.WriteLine("Book is not Exits Firstly Added the Book");
@@ -42,6 +52,7 @@ namespace AddressBook
             Console.WriteLine("Enter First Name: ");
             addressBook.firstName = Console.ReadLine();
 
+            // UC6 - Prevent duplicate entry by checking first name in same address book
             for(int i = 0; i < address.Count; i++)
             {
                 if (address[i].firstName.Equals(addressBook.firstName, StringComparison.OrdinalIgnoreCase))
@@ -72,26 +83,28 @@ namespace AddressBook
             Console.WriteLine("Enter Email Id: ");
             addressBook.email = Console.ReadLine();
 
+            // Add contact to selected address book
             addressBooks[book].Add(addressBook);
 
+            // UC8 - Maintain city wise dictionary
             if (!cityDictionary.ContainsKey(addressBook.city))
             {
                 cityDictionary[addressBook.city] = new List<AddressBook>();
             }
             cityDictionary[addressBook.city].Add(addressBook);
 
-
+            // UC8 - Maintain state wise dictionary
             if (!stateDictionary.ContainsKey(addressBook.state))
             {
                 stateDictionary[addressBook.state] = new List<AddressBook>();
             }
             stateDictionary[addressBook.state].Add(addressBook);
 
-
             Console.WriteLine("Contact Added Successfully");
             return addressBook;
         }
 
+        // UC2 - Edit existing contact by first name
         public void EditContact()
         {
             Console.WriteLine("Enter Book Name: ");
@@ -102,6 +115,7 @@ namespace AddressBook
                 Console.WriteLine("Book is not Exits Firstly Added the Book");
                 return;
             }
+
             Console.WriteLine("Enter First Name to Search: ");
             string SearchName = Console.ReadLine();
 
@@ -112,11 +126,13 @@ namespace AddressBook
             {
                 AddressBook addr = address[i];
 
+                // Search contact by first name
                 if(SearchName == addr.firstName)
                 {
                     found = true;
                     while (true)
                     {
+                        // Edit menu for updating required field
                         Console.WriteLine("1. First Name");
                         Console.WriteLine("2. Last Name");
                         Console.WriteLine("3. Address");
@@ -190,6 +206,7 @@ namespace AddressBook
             }
         }
 
+        // UC3 - Delete contact using person's first name
         public void DeleteContact()
         {
             Console.WriteLine("Enter Book Name: ");
@@ -211,10 +228,10 @@ namespace AddressBook
             {
                 AddressBook addr = address[i];
                 
+                // Match first name and delete contact
                 if(searchName == addr.firstName)
                 {
                     found = true;
-
                     address.RemoveAt(i);
                     Console.WriteLine("Contact Deleted Successfully!");
                     break;
@@ -227,6 +244,7 @@ namespace AddressBook
             }
         }
 
+        // UC7 - Search persons by city or state across all address books
         public void SearchPersonByCityOrState()
         {
             Console.WriteLine("1. Search By City");
@@ -240,6 +258,7 @@ namespace AddressBook
 
             bool found = false;
 
+            // Traverse all address books
             foreach(var book in addressBooks)
             {
                 string BookName = book.Key;
@@ -249,15 +268,16 @@ namespace AddressBook
                 {
                     if(choice == 1)
                     {
+                        // Search contact by city
                         if(address[i].city != null && address[i].city.Equals(cityorstate, StringComparison.OrdinalIgnoreCase))
                         {
                             found = true;
                             Console.WriteLine($"[{BookName}] {address[i]}");
                         }
                     }
-
                     else if(choice == 2)
                     {
+                        // Search contact by state
                         if(address[i].state != null && address[i].state.Equals(cityorstate, StringComparison.OrdinalIgnoreCase))
                         {
                             found = true;
@@ -273,6 +293,7 @@ namespace AddressBook
             }
         }
 
+        // UC8 - View persons by city using city dictionary
         public void SearchPersonByCity()
         {
             Console.WriteLine("Enter Search city: ");
@@ -291,6 +312,7 @@ namespace AddressBook
             }
         }
 
+        // UC8 - View persons by state using state dictionary
         public void SearchPersonByState()
         {
             Console.WriteLine("Enter Search State: ");
@@ -309,6 +331,7 @@ namespace AddressBook
             }
         }
 
+        // UC9 - Count persons in a given city
         public void CountByCity()
         {
             Console.WriteLine("Enter the city: ");
@@ -338,6 +361,7 @@ namespace AddressBook
             }
         }
 
+        // UC9 - Count persons in a given state
         public void CountByStates()
         {
             Console.WriteLine("Enter the state: ");
@@ -367,6 +391,7 @@ namespace AddressBook
             }
         }
 
+        // UC10 - Sort contacts alphabetically by name
         public void SortByName()
         {
             Console.WriteLine("Enter Address Book Name: ");
@@ -380,12 +405,13 @@ namespace AddressBook
 
             List<AddressBook> person = addressBooks[book];
 
-            if(addressBooks.Count == 0)
+            if(person.Count == 0)
             {
                 Console.WriteLine("No constact to sort");
                 return;
             }
 
+            // Sorting contacts alphabetically
             person.Sort((a,b) => a.firstName.CompareTo(b.lastName));
 
             foreach(var p in person)
@@ -394,6 +420,7 @@ namespace AddressBook
             }
         }
 
+        // UC11 - Sort contacts by city
         public void SortByCity()
         {
             Console.WriteLine("Enter Address Book Name: ");
@@ -413,6 +440,7 @@ namespace AddressBook
                 return;
             }
 
+            // Sorting by city name
             persons.Sort((a,b) => a.city.CompareTo(b.city));
 
             foreach(var person in persons)
@@ -421,6 +449,7 @@ namespace AddressBook
             }
         }
 
+        // UC11 - Sort contacts by state
         public void SortByState()
         {
             Console.WriteLine("Enter Address Book Name: ");
@@ -440,6 +469,7 @@ namespace AddressBook
                 return;
             }
 
+            // Sorting by state name
             persons.Sort((a,b) => a.state.CompareTo(b.state));
 
             foreach(var person in persons)
@@ -448,6 +478,7 @@ namespace AddressBook
             }
         }
 
+        // UC11 - Sort contacts by zip
         public void SortByZip()
         {
             Console.WriteLine("Enter Address Book Name: ");
@@ -467,6 +498,7 @@ namespace AddressBook
                 return;
             }
 
+            // Sorting by zip code
             persons.Sort((a,b) => a.zip.CompareTo(b.zip));
 
             foreach(var person in persons)
@@ -475,6 +507,102 @@ namespace AddressBook
             }
         }
 
+        // UC13 - Write address book contacts into text file using File IO
+        public void WriteAddressBookToFile()
+        {
+            Console.WriteLine("Enter Address Book Name: ");
+            string book = Console.ReadLine();
+
+            if (!addressBooks.ContainsKey(book))
+            {
+                Console.WriteLine("Book not Found");
+                return;
+            }
+
+            string file = book + ".txt";
+            List<AddressBook> persons = addressBooks[book];
+
+            Console.WriteLine("Total persons: " + persons.Count);
+
+            using(StreamWriter writer = new StreamWriter(file))
+            {
+                foreach(AddressBook person in persons)
+                {
+                    // Writing each contact into file
+                    writer.WriteLine(person);
+                }
+            }
+            Console.WriteLine("Address Book written successfully to file: "+file);
+        }
+
+        // UC13 - Read address book contacts from text file using File IO
+        public void ReadAddressBookToFile()
+        {
+            Console.WriteLine("Enter Address Book Name: ");
+            string book = Console.ReadLine();
+
+            string file = book + ".txt";
+
+            if (!File.Exists(file))
+            {
+                Console.WriteLine("No File Found");
+                return;
+            }
+
+            // Create address book if it does not exist
+            if (!addressBooks.ContainsKey(book))
+            {
+                addressBooks[book] = new List<AddressBook>();
+            }
+            else
+            {
+                // Clear existing contacts before reading from file
+                addressBooks[book].Clear();
+            }
+
+            using (StreamReader reader = new StreamReader(file))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    // Splitting line data using separator
+                    string[] data = line.Split('|');
+
+                    if (data.Length == 8)
+                    {
+                        AddressBook person = new AddressBook();
+                        person.firstName = data[0];
+                        person.lastName = data[1];
+                        person.address = data[2];
+                        person.city = data[3];
+                        person.state = data[4];
+                        person.zip = data[5];
+                        person.phoneNumber = data[6];
+                        person.email = data[7];
+
+                        addressBooks[book].Add(person);
+
+                        // Update city dictionary
+                        if (!cityDictionary.ContainsKey(person.city))
+                        {
+                            cityDictionary[person.city] = new List<AddressBook>();
+                        }
+                        cityDictionary[person.city].Add(person);
+
+                        // Update state dictionary
+                        if (!stateDictionary.ContainsKey(person.state))
+                        {
+                            stateDictionary[person.state] = new List<AddressBook>();
+                        }
+                        stateDictionary[person.state].Add(person);
+                    }
+                }
+            }
+
+            Console.WriteLine("Address Book read successfully from file: " + file);
+        }
+
+        // Display all contacts of selected address book
         public void DisplayContact()
         {
             Console.WriteLine("Enter Book Name: ");
@@ -496,11 +624,11 @@ namespace AddressBook
 
             for(int i = 0; i < address.Count; i++)
             {
-
                 Console.WriteLine(address[i]);
             }
         }
 
+        // Display all address book names present in the system
         public void ShowAllAddressBooks()
         {
             if(addressBooks.Count == 0)
