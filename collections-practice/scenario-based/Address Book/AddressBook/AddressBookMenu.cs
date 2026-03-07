@@ -26,9 +26,11 @@ namespace AddressBook
                 Console.WriteLine("\n13. Sort By City");                // UC11
                 Console.WriteLine("\n14. Sort By State");               // UC11
                 Console.WriteLine("\n15. Sort By Zip");                 // UC11
-                Console.WriteLine("\n16. Write Address TO File");       // UC13
-                Console.WriteLine("\n17. Read Address TO File");        // UC13
-                Console.WriteLine("\n18. Exit");
+                Console.WriteLine("\n16. Write Address To File");       // UC13
+                Console.WriteLine("\n17. Read Address From File");      // UC13 
+                Console.WriteLine("\n18. Write Address To CSV File");   // UC14
+                Console.WriteLine("\n19. Read Address From CSV File");   // UC14
+                Console.WriteLine("\n20. Exit");
 
                 Console.WriteLine("\nEnter the choice: ");
                 int choice = Convert.ToInt32(Console.ReadLine());
@@ -117,10 +119,20 @@ namespace AddressBook
 
                     case 17:
                         // Read address book contacts from text file using File IO
-                        bookutility.ReadAddressBookToFile();
+                        bookutility.ReadAddressBookFromFile();
                         break;
 
                     case 18:
+                        // Write address book contacts into CSV file
+                        bookutility.WriteAddressBookToCsv();
+                        break;
+
+                    case 19:
+                        // Write address book contacts into CSV file
+                        bookutility.ReadAddressBookFromCsv();
+                        break;
+
+                    case 20:
                         Console.WriteLine("THANK YOU FOR VISITING");
                         return;
 

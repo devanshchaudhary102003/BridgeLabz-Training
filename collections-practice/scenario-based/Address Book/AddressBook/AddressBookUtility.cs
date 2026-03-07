@@ -536,7 +536,7 @@ namespace AddressBook
         }
 
         // UC13 - Read address book contacts from text file using File IO
-        public void ReadAddressBookToFile()
+        public void ReadAddressBookFromFile()
         {
             Console.WriteLine("Enter Address Book Name: ");
             string book = Console.ReadLine();
@@ -600,6 +600,67 @@ namespace AddressBook
             }
 
             Console.WriteLine("Address Book read successfully from file: " + file);
+        }
+
+        // UC14 - Write address book contacts into text file using File IO
+        public void WriteAddressBookToCsv()
+        {
+            Console.WriteLine("Enter Address Book Name: ");
+            string book = Console.ReadLine();
+
+            if (!addressBooks.ContainsKey(book))
+            {
+                Console.WriteLine("Book not Found");
+                return;
+            }
+
+            string CsvFile = book + ".csv";
+            List<AddressBook> persons = addressBooks[book];
+
+            using(StreamWriter writer = new StreamWriter(CsvFile))
+            {
+                foreach(AddressBook person in persons)
+                {
+                    // Writing each contact into file
+                    writer.WriteLine(person);
+                }
+            }
+            Console.WriteLine("Contacts saved to CSV Successfully");
+        }
+
+        // UC14 - Read address book contacts from text file
+        public void ReadAddressBookFromCsv()
+        {
+            Console.WriteLine("Enter Address Book Name: ");
+            string book = Console.ReadLine();
+
+            if (!addressBooks.ContainsKey(book))
+            {
+                addressBooks[book] = new List<AddressBook>();
+            }
+            else
+            {
+                addressBooks[book].Clear();
+            }
+
+            string CsvFile = book + ".csv";
+
+            if (!File.Exists(CsvFile))
+            {
+                Console.WriteLine("Csv File Not Found");
+                return;
+            }
+            List<AddressBook> persons = addressBooks[book];
+
+            using(StreamReader writer = new StreamReader(CsvFile))
+            {
+                foreach(AddressBook person in persons)
+                {
+                    // Reading each contact into file
+                    addressBooks[book].Add(person);
+                }
+            }
+             Console.WriteLine("Address Book read successfully from CSV file: " + CsvFile);
         }
 
         // Display all contacts of selected address book
