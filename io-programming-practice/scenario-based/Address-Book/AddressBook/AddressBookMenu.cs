@@ -140,7 +140,7 @@ namespace AddressBook
                         break;
 
                     case 21:
-                        // Write address book contacts into JSON File
+                        // Read address book contacts From JSON File
                         bookutility.ReadAddressBookFromJsonFile();
                         break;
 
