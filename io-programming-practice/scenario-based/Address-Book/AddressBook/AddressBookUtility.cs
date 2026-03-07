@@ -1,3 +1,7 @@
+using System.IO;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Text;
 using System.Text.Json;
 
 namespace AddressBook
@@ -15,6 +19,81 @@ namespace AddressBook
 
         // UC8 - Dictionary to store state wise persons
         Dictionary<string,List<AddressBook>> stateDictionary = new Dictionary<string, List<AddressBook>>();
+
+        private readonly HttpClient httpClient = new HttpClient();
+        private readonly string apiUrl = "http://localhost:3000/contacts";
+
+        // UC16 - Add contact to JSON Server
+        public void AddPersonToJsonServer()
+        {
+            AddressBook person = new AddressBook();
+
+            Console.WriteLine("Enter First Name: ");
+            person.firstName = Console.ReadLine();
+
+            Console.WriteLine("Enter Last Name: ");
+            person.lastName = Console.ReadLine();
+
+            Console.WriteLine("Enter Address: ");
+            person.address = Console.ReadLine();
+
+            Console.WriteLine("Enter City: ");
+            person.city = Console.ReadLine();
+
+            Console.WriteLine("Enter State: ");
+            person.state = Console.ReadLine();
+
+            Console.WriteLine("Enter Zip: ");
+            person.zip = Console.ReadLine();
+
+            Console.WriteLine("Enter Phone Number: ");
+            person.phoneNumber = Console.ReadLine();
+
+            Console.WriteLine("Enter Email: ");
+            person.email = Console.ReadLine();
+
+            string jsonData = JsonSerializer.Serialize(person);
+            StringContent content = new StringContent(jsonData,Encoding.UTF8,"application/json");
+
+            HttpResponseMessage response = httpClient.PostAsync(apiUrl,content).Result;
+
+            if (response.IsSuccessStatusCode)
+            {
+                Console.WriteLine("Contact added to jSON Server successfully");
+            }
+            else
+            {
+                Console.WriteLine("Failed to add contact to JSON Server");
+            }
+        }
+
+        // UC16 - Get all contacts from JSON Server
+        public void GetAllPersonsFromJsonServer()
+        {
+            HttpResponseMessage response = httpClient.GetAsync(apiUrl).Result;
+
+            if (!response.IsSuccessStatusCode)
+            {
+                Console.WriteLine("Failed to fetch contacts from JSON Server.");
+                return;
+            }  
+
+            string jsonResponse = response.Content.ReadAsStringAsync().Result; 
+
+            List<AddressBook> contacts = JsonSerializer.Deserialize<List<AddressBook>>(jsonResponse);
+
+            if(contacts == null || contacts.Count == 0)
+            {
+                Console.WriteLine("No contacts found on JSON Server.");
+                return;
+            }
+
+            Console.WriteLine("\nContacts from JSON Server:\n");
+            foreach (AddressBook person in contacts)
+            {
+                Console.WriteLine(person);
+            }
+        }
 
         // UC5 - Add new address book with unique name
         public void AddAddressBook()

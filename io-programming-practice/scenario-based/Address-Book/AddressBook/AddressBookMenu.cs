@@ -32,7 +32,9 @@ namespace AddressBook
                 Console.WriteLine("\n19. Read Address From CSV File");  // UC14
                 Console.WriteLine("\n20. Write Address To JSON File");  // UC15
                 Console.WriteLine("\n21. Read Address From JSON File");  // UC15
-                Console.WriteLine("\n22. Exit");
+                Console.WriteLine("\n22. Add Person To JSON Server");    //UC16
+                Console.WriteLine("\n23. Display Persons From JSON Server");//UC16
+                Console.WriteLine("\n24. Exit");
 
                 Console.WriteLine("\nEnter the choice: ");
                 int choice = Convert.ToInt32(Console.ReadLine());
@@ -145,6 +147,16 @@ namespace AddressBook
                         break;
 
                     case 22:
+                        // Add contact to JSON Server
+                        bookutility.AddPersonToJsonServer();
+                        break;
+
+                    case 23:
+                        //Get all contacts from JSON Server
+                        bookutility.GetAllPersonsFromJsonServer();
+                        break;
+
+                    case 24:
                         Console.WriteLine("THANK YOU FOR VISITING");
                         return;
 

@@ -61,5 +61,9 @@ namespace AddressBook
         void WriteAddressBookToJsonFile();
         // UC15 - Read address book From JSON File.
         void ReadAddressBookFromJsonFile();
+        // UC16 - Add contact to JSON Server
+        void AddPersonToJsonServer();
+        // UC16 - Get all contacts from JSON Server
+        void GetAllPersonsFromJsonServer();
     }
 }
