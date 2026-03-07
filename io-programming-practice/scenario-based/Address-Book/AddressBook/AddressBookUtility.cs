@@ -1,3 +1,5 @@
+using System.Text.Json;
+
 namespace AddressBook
 {
     public class AddressBookUtility : IAddressBook
@@ -602,7 +604,7 @@ namespace AddressBook
             Console.WriteLine("Address Book read successfully from file: " + file);
         }
 
-        // UC14 - Write address book contacts into text file using File IO
+        // UC14 - Write address book contacts into CSV File
         public void WriteAddressBookToCsv()
         {
             Console.WriteLine("Enter Address Book Name: ");
@@ -628,7 +630,7 @@ namespace AddressBook
             Console.WriteLine("Contacts saved to CSV Successfully");
         }
 
-        // UC14 - Read address book contacts from text file
+        // UC14 - Read address book contacts from CSV file
         public void ReadAddressBookFromCsv()
         {
             Console.WriteLine("Enter Address Book Name: ");
@@ -662,6 +664,68 @@ namespace AddressBook
             }
              Console.WriteLine("Address Book read successfully from CSV file: " + CsvFile);
         }
+
+        // UC15 - Write address book contacts into JSON File
+        public void WriteAddressBookToJsonFile()
+        {
+            Console.WriteLine("Enter Address Book Name: ");
+            string book = Console.ReadLine();
+
+            if (!addressBooks.ContainsKey(book))
+            {
+                Console.WriteLine("Book Not Found");
+                return;
+            }
+
+            string file = book + ".json";
+
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+
+            string jsonData = JsonSerializer.Serialize(addressBooks[book],options);
+            File.WriteAllText(file,jsonData);
+
+            Console.WriteLine("Address Book written to JSON file successfully.");
+        }
+
+        // UC15 - Read address book contacts from JSON File
+        public void ReadAddressBookFromJsonFile()
+        {
+            Console.WriteLine("Enter Address Book Name: ");
+            string book = Console.ReadLine();
+
+            string file = book + ".json";
+
+            if (!File.Exists(file))
+            {
+                Console.WriteLine("JSON File Not Found");
+                return;
+            }
+
+            string jsonData = File.ReadAllText(file);
+
+            List<AddressBook> person = JsonSerializer.Deserialize<List<AddressBook>>(jsonData);
+
+            if(person == null)
+            {
+                Console.WriteLine("No Data Found in JSON File");
+                return;
+            }
+
+            if (addressBooks.ContainsKey(book))
+            {
+                addressBooks[book] = person;
+            }
+            else
+            {
+                addressBooks.Add(book,person);
+            }
+
+            Console.WriteLine("Address Book read from JSON file successfully.");
+        }
+
 
         // Display all contacts of selected address book
         public void DisplayContact()

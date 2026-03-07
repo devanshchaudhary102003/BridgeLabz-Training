@@ -57,5 +57,9 @@ namespace AddressBook
         void WriteAddressBookToCsv();
         // UC14 - Read address book from file
         void ReadAddressBookFromCsv();
+        // UC15 - Write address book To JSON File
+        void WriteAddressBookToJsonFile();
+        // UC15 - Read address book From JSON File 
+        void ReadAddressBookFromJsonFile();
     }
 }
