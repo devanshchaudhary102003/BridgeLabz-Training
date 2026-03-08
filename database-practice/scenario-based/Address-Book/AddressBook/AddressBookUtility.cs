@@ -32,6 +32,13 @@ namespace AddressBook
         private readonly HttpClient httpClient = new HttpClient();
         private readonly string apiUrl = "http://localhost:3000/contacts";
 
+        private IDataSource dataSource;
+
+        public AddressBookUtility(IDataSource source)
+        {
+            dataSource = source;
+        }
+
         // UC16 - Add contact to JSON Server
         public async Task AddPersonToJsonServer()
         {
@@ -1029,6 +1036,18 @@ namespace AddressBook
             addressBooks[book].AddRange(persons);
 
             Console.WriteLine("Address book read from JSON file successfully");
+        }
+
+        //UC-18 Save all address books
+        public void SaveAddressBook()   
+        {
+            dataSource.Save(addressBooks);
+        }
+
+        //UC-18 Load all address books
+        public void LoadAddressBook() 
+        {
+            addressBooks = dataSource.Load();
         }
 
         // Display all contacts of selected address book

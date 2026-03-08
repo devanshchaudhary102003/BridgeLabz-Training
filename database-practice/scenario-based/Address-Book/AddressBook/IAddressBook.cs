@@ -93,5 +93,7 @@ namespace AddressBook
         // UC17 - Asynchronously read and deserialize contacts from a JSON file
         // Uses async file reading and JSON deserialization
         Task ReadAddressFromJsonFileAsync();
+        void SaveAddressBook();
+        void LoadAddressBook();
     }
 }

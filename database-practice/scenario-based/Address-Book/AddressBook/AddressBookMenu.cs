@@ -5,8 +5,9 @@ namespace AddressBook
     {
         public async Task MenuAsync()
         {
-            // Interface reference used for abstraction
-            IAddressBook bookutility = new AddressBookUtility();
+            string connString = "Server=localhost\\SQLEXPRESS;Database=AddressBookDB;Trusted_Connection=True;TrustServerCertificate=True";
+            IDataSource source = new DataBaseDataSource(connString);
+            IAddressBook bookutility = new AddressBookUtility(source);
 
             while(true)
             {
@@ -41,7 +42,9 @@ namespace AddressBook
                 Console.WriteLine("\n27. Read Address From CSV File");      //UC17
                 Console.WriteLine("\n28. Write Address To JSON File");      //UC17
                 Console.WriteLine("\n29. Read Address From JSON File");     //UC17
-                Console.WriteLine("\n30. Exit");
+                Console.WriteLine("\n30. Save to Database");                //UC18
+                Console.WriteLine("\n31. Load from Database");              //UC18
+                Console.WriteLine("\n32. Exit");
 
                 Console.WriteLine("\nEnter the choice: ");
                 int choice = Convert.ToInt32(Console.ReadLine());
@@ -155,12 +158,12 @@ namespace AddressBook
 
                     case 22:
                         // Add contact to JSON Server
-                        bookutility.AddPersonToJsonServer();
+                        await bookutility.AddPersonToJsonServer();
                         break;
 
                     case 23:
                         //Get all contacts from JSON Server
-                        bookutility.GetAllPersonsFromJsonServer();
+                        await bookutility.GetAllPersonsFromJsonServer();
                         break;
 
                     case 24:
@@ -200,6 +203,14 @@ namespace AddressBook
                         break;
 
                     case 30:
+                        bookutility.SaveAddressBook();
+                        break;
+
+                    case 31:
+                        bookutility.LoadAddressBook();
+                        break;
+
+                    case 32:
                         Console.WriteLine("THANK YOU FOR VISITING");
                         return;
 
