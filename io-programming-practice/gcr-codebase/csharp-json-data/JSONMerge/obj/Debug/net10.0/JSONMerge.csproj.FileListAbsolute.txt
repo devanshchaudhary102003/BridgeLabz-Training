@@ -1,0 +1,14 @@
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\bin\Debug\net10.0\JSONMerge.exe
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\bin\Debug\net10.0\JSONMerge.deps.json
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\bin\Debug\net10.0\JSONMerge.runtimeconfig.json
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\bin\Debug\net10.0\JSONMerge.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\bin\Debug\net10.0\JSONMerge.pdb
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\obj\Debug\net10.0\JSONMerge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\obj\Debug\net10.0\JSONMerge.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\obj\Debug\net10.0\JSONMerge.AssemblyInfo.cs
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\obj\Debug\net10.0\JSONMerge.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\obj\Debug\net10.0\JSONMerge.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\obj\Debug\net10.0\refint\JSONMerge.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\obj\Debug\net10.0\JSONMerge.pdb
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\obj\Debug\net10.0\JSONMerge.genruntimeconfig.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONMerge\obj\Debug\net10.0\ref\JSONMerge.dll

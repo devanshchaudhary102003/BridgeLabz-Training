@@ -1,0 +1,17 @@
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\bin\Debug\net10.0\JSONObjectStudent.exe
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\bin\Debug\net10.0\JSONObjectStudent.deps.json
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\bin\Debug\net10.0\JSONObjectStudent.runtimeconfig.json
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\bin\Debug\net10.0\JSONObjectStudent.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\bin\Debug\net10.0\JSONObjectStudent.pdb
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\obj\Debug\net10.0\JSONObjectStudent.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\obj\Debug\net10.0\JSONObjectStudent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\obj\Debug\net10.0\JSONObjectStudent.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\obj\Debug\net10.0\JSONObjectStudent.AssemblyInfo.cs
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\obj\Debug\net10.0\JSONObjectStudent.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\obj\Debug\net10.0\JSONObje.019C1DE7.Up2Date
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\obj\Debug\net10.0\JSONObjectStudent.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\obj\Debug\net10.0\refint\JSONObjectStudent.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\obj\Debug\net10.0\JSONObjectStudent.pdb
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\obj\Debug\net10.0\JSONObjectStudent.genruntimeconfig.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONObjectStudent\obj\Debug\net10.0\ref\JSONObjectStudent.dll

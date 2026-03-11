@@ -1,0 +1,17 @@
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\bin\Debug\net10.0\JSONData.exe
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\bin\Debug\net10.0\JSONData.deps.json
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\bin\Debug\net10.0\JSONData.runtimeconfig.json
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\bin\Debug\net10.0\JSONData.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\bin\Debug\net10.0\JSONData.pdb
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\obj\Debug\net10.0\JSONData.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\obj\Debug\net10.0\JSONData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\obj\Debug\net10.0\JSONData.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\obj\Debug\net10.0\JSONData.AssemblyInfo.cs
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\obj\Debug\net10.0\JSONData.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\obj\Debug\net10.0\JSONData.csproj.Up2Date
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\obj\Debug\net10.0\JSONData.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\obj\Debug\net10.0\refint\JSONData.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\obj\Debug\net10.0\JSONData.pdb
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\obj\Debug\net10.0\JSONData.genruntimeconfig.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONData\obj\Debug\net10.0\ref\JSONData.dll
