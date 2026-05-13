@@ -1,0 +1,38 @@
+{
+  "contacts": [
+    {
+      "id": "1962",
+      "firstName": "a",
+      "lastName": "a",
+      "address": "a",
+      "city": "a",
+      "state": "a",
+      "zip": "a",
+      "phoneNumber": "a",
+      "email": "a"
+    },
+    {
+      "id": "b817",
+      "firstName": "d",
+      "lastName": "d",
+      "address": "d",
+      "city": "d",
+      "state": "d",
+      "zip": "d",
+      "phoneNumber": "d",
+      "email": "d"
+    },
+    {
+      "id": "7ccd",
+      "firstName": "e",
+      "lastName": "e",
+      "address": "e",
+      "city": "e",
+      "state": "e",
+      "zip": "e",
+      "phoneNumber": "e",
+      "email": "e"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

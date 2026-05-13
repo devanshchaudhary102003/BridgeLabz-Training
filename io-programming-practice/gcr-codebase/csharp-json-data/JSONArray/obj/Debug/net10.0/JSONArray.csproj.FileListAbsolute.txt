@@ -1,0 +1,17 @@
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\obj\Debug\net10.0\JSONArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\obj\Debug\net10.0\JSONArray.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\obj\Debug\net10.0\JSONArray.AssemblyInfo.cs
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\obj\Debug\net10.0\JSONArray.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\obj\Debug\net10.0\JSONArray.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\bin\Debug\net10.0\JSONArray.exe
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\bin\Debug\net10.0\JSONArray.deps.json
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\bin\Debug\net10.0\JSONArray.runtimeconfig.json
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\bin\Debug\net10.0\JSONArray.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\bin\Debug\net10.0\JSONArray.pdb
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\obj\Debug\net10.0\JSONArray.csproj.Up2Date
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\obj\Debug\net10.0\JSONArray.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\obj\Debug\net10.0\refint\JSONArray.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\obj\Debug\net10.0\JSONArray.pdb
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\obj\Debug\net10.0\JSONArray.genruntimeconfig.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONArray\obj\Debug\net10.0\ref\JSONArray.dll

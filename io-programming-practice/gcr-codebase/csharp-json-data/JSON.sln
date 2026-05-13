@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONCar", "JSONCar\JSONCar.csproj", "{AC141E31-CED7-3B83-DFF8-40D0DD16D72D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONEmail", "JSONEmail\JSONEmail.csproj", "{FA0BB079-F8AD-728E-4D94-3C234164955D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONObjectStudent", "JSONObjectStudent\JSONObjectStudent.csproj", "{7D8C9892-306C-0EA9-7D09-D26D88E3B21F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC141E31-CED7-3B83-DFF8-40D0DD16D72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC141E31-CED7-3B83-DFF8-40D0DD16D72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC141E31-CED7-3B83-DFF8-40D0DD16D72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC141E31-CED7-3B83-DFF8-40D0DD16D72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0BB079-F8AD-728E-4D94-3C234164955D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0BB079-F8AD-728E-4D94-3C234164955D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0BB079-F8AD-728E-4D94-3C234164955D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0BB079-F8AD-728E-4D94-3C234164955D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8C9892-306C-0EA9-7D09-D26D88E3B21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8C9892-306C-0EA9-7D09-D26D88E3B21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8C9892-306C-0EA9-7D09-D26D88E3B21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8C9892-306C-0EA9-7D09-D26D88E3B21F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B458E874-C20B-42A3-961C-F890E67A4EB1}
+	EndGlobalSection
+EndGlobal
