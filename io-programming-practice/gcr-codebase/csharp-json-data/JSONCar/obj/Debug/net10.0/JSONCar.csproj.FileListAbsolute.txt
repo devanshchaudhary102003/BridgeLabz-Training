@@ -1,0 +1,17 @@
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\obj\Debug\net10.0\JSONCar.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\obj\Debug\net10.0\JSONCar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\obj\Debug\net10.0\JSONCar.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\obj\Debug\net10.0\JSONCar.AssemblyInfo.cs
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\obj\Debug\net10.0\JSONCar.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\bin\Debug\net10.0\JSONCar.exe
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\bin\Debug\net10.0\JSONCar.deps.json
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\bin\Debug\net10.0\JSONCar.runtimeconfig.json
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\bin\Debug\net10.0\JSONCar.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\bin\Debug\net10.0\JSONCar.pdb
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\obj\Debug\net10.0\JSONCar.csproj.Up2Date
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\obj\Debug\net10.0\JSONCar.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\obj\Debug\net10.0\refint\JSONCar.dll
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\obj\Debug\net10.0\JSONCar.pdb
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\obj\Debug\net10.0\JSONCar.genruntimeconfig.cache
+C:\Users\DELL\Desktop\csharp\io-programming-practice\gcr-codebase\JSON\JSONCar\obj\Debug\net10.0\ref\JSONCar.dll

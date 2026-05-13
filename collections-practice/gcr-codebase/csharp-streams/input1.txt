@@ -1,0 +1,2 @@
+C# is great. C# is fast.
+Learning C# is fun and C# is powerful.
