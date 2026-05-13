@@ -1,0 +1,14 @@
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\obj\Debug\net10.0\HealthCheckPro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\obj\Debug\net10.0\HealthCheckPro.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\obj\Debug\net10.0\HealthCheckPro.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\obj\Debug\net10.0\HealthCheckPro.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\bin\Debug\net10.0\HealthCheckPro.exe
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\bin\Debug\net10.0\HealthCheckPro.deps.json
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\bin\Debug\net10.0\HealthCheckPro.runtimeconfig.json
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\bin\Debug\net10.0\HealthCheckPro.dll
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\bin\Debug\net10.0\HealthCheckPro.pdb
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\obj\Debug\net10.0\HealthCheckPro.dll
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\obj\Debug\net10.0\refint\HealthCheckPro.dll
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\obj\Debug\net10.0\HealthCheckPro.pdb
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\obj\Debug\net10.0\HealthCheckPro.genruntimeconfig.cache
+C:\Users\DELL\Desktop\Practice\HealthCheckPro\HealthCheckPro\obj\Debug\net10.0\ref\HealthCheckPro.dll
